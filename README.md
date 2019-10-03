@@ -4,7 +4,7 @@
 
 ```CREATE TABLE food(id SERIAL PRIMARY KEY, name VARCHAR(100), category VARCHAR(100), calories DECIMAL, protein DECIMAL, fat DECIMAL, carbs DECIMAL, fibre DECIMAL);```
 
-### Table data
+### Starter 'food' table data
 
 ```
 1	"walnut"	"nut"	        654.0	 15.23	65.21	13.71	6.7
