@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02031bf7-9696-4d5d-9add-9ff09f03a819" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/Sql2oFoodDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/FoodDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/FoodDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Food.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +49,29 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Sql2oFoodDAOTest.canFindByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nutrisi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.Sql2oFoodDAOTest" />
+      <option name="METHOD_NAME" value="canFindByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Sql2oFoodDAOTest.canFindByName" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />

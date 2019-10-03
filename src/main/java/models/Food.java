@@ -87,4 +87,24 @@ public class Food {
     public void setFibre(double fibre) {
         this.fibre = fibre;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Food food = (Food) o;
+        return id == food.id &&
+                Double.compare(food.calories, calories) == 0 &&
+                Double.compare(food.protein, protein) == 0 &&
+                Double.compare(food.fat, fat) == 0 &&
+                Double.compare(food.carbs, carbs) == 0 &&
+                Double.compare(food.fibre, fibre) == 0 &&
+                Objects.equals(name, food.name) &&
+                Objects.equals(category, food.category);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, category, calories, protein, fat, carbs, fibre);
+    }
 }
