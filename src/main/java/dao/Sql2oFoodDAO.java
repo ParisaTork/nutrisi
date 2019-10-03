@@ -6,9 +6,12 @@ import org.sql2o.Sql2o;
 
 import org.sql2o.Sql2oException;
 
+import java.util.List;
+
 public class Sql2oFoodDAO implements FoodDAO {
 
     private Sql2o sql2o;
+
 
 
     public Sql2oFoodDAO(Sql2o sql2o){
@@ -16,9 +19,9 @@ public class Sql2oFoodDAO implements FoodDAO {
     }
 
     @Override
-    public Food findByName(Food name) {
+    public Food findByName(String name) {
         try(Connection con = sql2o.open()) {
-            return con.createQuery("SELECT calories, protein, fat, carbs, fibre FROM food WHERE name = :name")
+            return con.createQuery("SELECT * FROM food WHERE name = :name;")
                     .addParameter("name", name)
                     .executeAndFetchFirst(Food.class);
         } catch(Sql2oException e){
@@ -28,37 +31,79 @@ public class Sql2oFoodDAO implements FoodDAO {
     }
 
     @Override
-    public Food findByCategory(String category) {
+    public List<Food> findByCategory(String category) {
+        try(Connection con = sql2o.open()) {
+            return con.createQuery("SELECT * FROM food WHERE category = :category;")
+                    .addParameter("category", category)
+                    .executeAndFetch(Food.class);
+        } catch(Sql2oException e){
+            System.out.println(e);
+        }
         return null;
     }
 
     @Override
-    public Food findByCalories(double calories) {
+    public List<Food> findByCalories(double calories) {
+        try(Connection con = sql2o.open()) {
+            return con.createQuery("SELECT * FROM food WHERE calories = :calories;")
+                    .addParameter("calories", calories)
+                    .executeAndFetch(Food.class);
+        } catch(Sql2oException e){
+            System.out.println(e);
+        }
         return null;
     }
 
     @Override
-    public Food findByProtein(double protein) {
+    public List<Food> findByProtein(double protein) {
+        try(Connection con = sql2o.open()){
+            return con.createQuery("SELECT * FROM food WHERE protein = :protein;")
+                    .addParameter("protein", protein)
+                    .executeAndFetch(Food.class);
+        } catch(Sql2oException e){
+            System.out.println(e);
+        }
         return null;
     }
 
     @Override
-    public Food findByFat(double fat) {
+    public List<Food> findByFat(double fat) {
+        try(Connection con = sql2o.open()){
+            return con.createQuery("SELECT * FROM food WHERE fat = :fat;")
+                    .addParameter("fat", fat)
+                    .executeAndFetch(Food.class);
+        } catch(Sql2oException e){
+            System.out.println(e);
+        }
         return null;
     }
 
     @Override
-    public Food findByCarbs(double carbs) {
+    public List<Food> findByCarbs(double carbs) {
+        try(Connection con = sql2o.open()){
+            return con.createQuery("SELECT * FROM food WHERE carbs = :carbs;")
+                    .addParameter("carbs", carbs)
+                    .executeAndFetch(Food.class);
+        } catch(Sql2oException e){
+            System.out.println(e);
+        }
         return null;
     }
 
     @Override
-    public Food findByFibre(double fibre) {
+    public List<Food> findByFibre(double fibre) {
+        try(Connection con = sql2o.open()){
+            return con.createQuery("SELECT * FROM food WHERE fibre = :fibre;")
+                    .addParameter("fibre", fibre)
+                    .executeAndFetch(Food.class);
+        } catch(Sql2oException e){
+            System.out.println(e);
+        }
         return null;
     }
 
     @Override
-    public Food findByTag(String tag) {
+    public List<Food> findByTag(String tag) {
         return null;
     }
     

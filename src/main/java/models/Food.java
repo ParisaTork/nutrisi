@@ -107,4 +107,5 @@ public class Food {
     public int hashCode() {
         return Objects.hash(id, name, category, calories, protein, fat, carbs, fibre);
     }
+
 }

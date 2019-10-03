@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02031bf7-9696-4d5d-9add-9ff09f03a819" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/Sql2oFoodDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/FoodDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/FoodDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/Sql2oFoodDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/Sql2oFoodDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dao/Sql2oFoodDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dao/Sql2oFoodDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/FoodDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/FoodDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/Sql2oFoodDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/Sql2oFoodDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/Food.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dao/Sql2oFoodDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dao/Sql2oFoodDAOTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,10 +39,20 @@
   <component name="ProjectId" id="1RgqTqaaHdJTHyRvouHe2LS7pwK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="models" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -50,9 +66,56 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Sql2oFoodDAOTest.canFindByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="nutrisi" />
+  <component name="RunManager" selected="JUnit.FoodTest">
+    <configuration name="FoodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="girlgang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="models" />
+      <option name="MAIN_CLASS_NAME" value="models.FoodTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FoodTest.getCalories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="girlgang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="models" />
+      <option name="MAIN_CLASS_NAME" value="models.FoodTest" />
+      <option name="METHOD_NAME" value="getCalories" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FoodTest.getId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="girlgang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="models" />
+      <option name="MAIN_CLASS_NAME" value="models.FoodTest" />
+      <option name="METHOD_NAME" value="getId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sql2oFoodDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="girlgang" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dao.*" />
@@ -61,7 +124,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="dao" />
       <option name="MAIN_CLASS_NAME" value="dao.Sql2oFoodDAOTest" />
-      <option name="METHOD_NAME" value="canFindByName" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sql2oFoodDAOTest.canFindByCalories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="girlgang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.Sql2oFoodDAOTest" />
+      <option name="METHOD_NAME" value="canFindByCalories" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,7 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Sql2oFoodDAOTest.canFindByName" />
+        <item itemvalue="JUnit.FoodTest" />
+        <item itemvalue="JUnit.FoodTest.getCalories" />
+        <item itemvalue="JUnit.FoodTest.getId" />
+        <item itemvalue="JUnit.Sql2oFoodDAOTest" />
+        <item itemvalue="JUnit.Sql2oFoodDAOTest.canFindByCalories" />
       </list>
     </recent_temporary>
   </component>
@@ -91,7 +173,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

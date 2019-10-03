@@ -2,20 +2,22 @@ package dao;
 
 import models.Food;
 
+import java.util.List;
+
 public interface FoodDAO {
     Food findByName(String name);
 
-    Food findByCategory(String category);
+    List<Food> findByCategory(String category);
 
-    Food findByCalories(double calories);
+    List<Food> findByCalories(double calories);
 
-    Food findByProtein(double protein);
+    List<Food> findByProtein(double protein);
 
-    Food findByFat(double fat);
+    List<Food> findByFat(double fat);
 
-    Food findByCarbs(double carbs);
+    List<Food> findByCarbs(double carbs);
 
-    Food findByFibre(double fibre);
+    List<Food> findByFibre(double fibre);
 
-    Food findByTag(String tag);
+    List<Food> findByTag(String tag);
 }
