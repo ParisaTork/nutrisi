@@ -12,6 +12,7 @@ public class Food {
     private double fat;
     private double carbs;
     private double fibre;
+    private String photo;
 
     public Food(int id, String name, String category, double calories, double protein, double fat, double carbs, double fibre) {
         this.id = id;
@@ -87,6 +88,8 @@ public class Food {
     public void setFibre(double fibre) {
         this.fibre = fibre;
     }
+
+    public String getPhoto() { return photo; }
 
     @Override
     public boolean equals(Object o) {
