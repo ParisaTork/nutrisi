@@ -25,3 +25,9 @@
 5) Your link should now look like this: ```https://source.unsplash.com/FT0fNHmv4A0/400x400```
 6) Put the link in your database row and save (Command + S)!
 7) Re-run your app and see the result
+
+### Cloning from a specific branch to play around with the app
+
+```git clone -b <branch> <remote_repo>``` e.g. ```git clone -b basicmvp https://github.com/ParisaTork/nutrisi.git```
+
+N.B. If you have a local repo of the same name, duplicate it/push it to a new branch on Git. **MAKE SURE YOU HAVE A COPY OF IT SOMEWHERE!** You can now delete the local repo and clone from the specific branch you want to play around with.
