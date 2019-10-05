@@ -14,3 +14,14 @@
 4	"chickpea"	"legume"	364.0	19.0	6.0	61.0	17.0  https://source.unsplash.com/3qjblmWiW98/400x400
 5	"pumpkin seed"	"seed"          559.0	30.23	49.05	10.71	6.0   https://source.unsplash.com/J8_U_vokuKk/400x400
 ```
+
+### Using photos from Unsplash
+
+1) Make sure your TablePlus database has a 'photo' column with ```varchar(1000)``` as its data type
+2) Input ```https://source.unsplash.com/{PHOTO ID}/{WIDTHxHEIGHT}``` into a database row
+3) Go to desired photo on Unsplash website and go on share and copy ```PHOTO ID``` portion of direct link i.e. looks like this: ```FT0fNHmv4A0```
+4) Replace ```PHOTO ID``` with ```PHOTO ID``` portion of direct link, so your link now looks like this: ```https://source.unsplash.com/FT0fNHmv4A0/```
+4) Add ```WIDTHxHEIGHT``` to this e.g. ```400x400```
+5) Your link should now look like this: ```https://source.unsplash.com/FT0fNHmv4A0/400x400```
+6) Put the link in your database row and save (Command + S)!
+7) Re-run your app and see the result
