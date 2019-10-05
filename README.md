@@ -31,10 +31,11 @@
 
 ```git clone -b <branch> <remote_repo>``` e.g. ```git clone -b basicmvp https://github.com/ParisaTork/nutrisi.git```
 
-N.B. If you have a local repo of the same name, duplicate it/push it to a new branch on Git. This is because Git won't let you clone a remote repo to your machine if it has the same name as a local repo on your machine. 
+N.B. If you have a local repo of the same name, you can either:
 
-**MAKE SURE YOU HAVE A COPY OF IT SOMEWHERE!** 
+Option 1) Rename the local repo so it doesn't conflict with the remote repo e.g. rename nutrisi to nutrisi1. Do this if **you don't want to push anything anymore from that repo**. You can now clone the new remote repo from Git without any regrets about deleting a local repo. 
 
-You can now delete the local repo and clone from the specific branch you want to play around with.
+Option 2 (risky) ) Duplicate the local repo/push it to a new branch on Git. 
+**MAKE SURE YOU HAVE A COPY OF IT SOMEWHERE!**  This is because Git won't let you clone a remote repo to your machine if it has the same name as a local repo on your machine. You can now delete the local repo and clone from the specific branch you want to play around with.
 
 [Back to Nutrisi Wiki Homepage](https://github.com/ParisaTork/nutrisi/wiki)
