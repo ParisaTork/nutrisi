@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02031bf7-9696-4d5d-9add-9ff09f03a819" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VelocityTemplateEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/searchresults.vtl" afterDir="false" />
+    <list default="true" id="017de51d-bc30-4e49-866d-b0869c4703ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/Food.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/Sql2oUserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dao/Sql2oUserDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/girlgang.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.vtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.vtl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,14 +17,6 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,34 +31,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1RgqTqaaHdJTHyRvouHe2LS7pwK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1RpQw2W7oURZrtE7B1I1qHShBVF" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="models" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java" />
-    </key>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -97,99 +55,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FoodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-  <component name="RunManager" selected="JUnit.Sql2oUserDAOTest.authenticateIncorrectPasswordGivesError">
-    <configuration name="Sql2oUserDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="girlgang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dao" />
-      <option name="MAIN_CLASS_NAME" value="dao.Sql2oUserDAOTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="girlgang []" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
-    <configuration name="Sql2oUserDAOTest.authenticateCorrectLoginDetailsReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="girlgang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dao" />
-      <option name="MAIN_CLASS_NAME" value="dao.Sql2oUserDAOTest" />
-      <option name="METHOD_NAME" value="authenticateCorrectLoginDetailsReturnTrue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sql2oUserDAOTest.authenticateIncorrectEmailGivesError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="girlgang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dao" />
-      <option name="MAIN_CLASS_NAME" value="dao.Sql2oUserDAOTest" />
-      <option name="METHOD_NAME" value="authenticateIncorrectEmailGivesError" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sql2oUserDAOTest.authenticateIncorrectEmailReturnsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="girlgang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dao" />
-      <option name="MAIN_CLASS_NAME" value="dao.Sql2oUserDAOTest" />
-      <option name="METHOD_NAME" value="authenticateIncorrectEmailReturnsNull" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sql2oUserDAOTest.authenticateIncorrectPasswordGivesError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="girlgang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dao" />
-      <option name="MAIN_CLASS_NAME" value="dao.Sql2oUserDAOTest" />
-      <option name="METHOD_NAME" value="authenticateIncorrectPasswordGivesError" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Maven.girlgang []" />
+      <item itemvalue="Application.App" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.FoodTest" />
-        <item itemvalue="JUnit.FoodTest.getCalories" />
-        <item itemvalue="JUnit.FoodTest.getId" />
-        <item itemvalue="JUnit.Sql2oFoodDAOTest" />
-        <item itemvalue="JUnit.Sql2oUserDAOTest.authenticateIncorrectPasswordGivesError" />
-        <item itemvalue="JUnit.Sql2oUserDAOTest.authenticateIncorrectEmailGivesError" />
-        <item itemvalue="JUnit.Sql2oUserDAOTest.authenticateIncorrectEmailReturnsNull" />
-        <item itemvalue="JUnit.Sql2oUserDAOTest.authenticateCorrectLoginDetailsReturnTrue" />
-        <item itemvalue="JUnit.Sql2oUserDAOTest" />
       </list>
     </recent_temporary>
   </component>
@@ -198,11 +93,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="02031bf7-9696-4d5d-9add-9ff09f03a819" name="Default Changelist" comment="" />
-      <created>1570099096666</created>
+      <changelist id="017de51d-bc30-4e49-866d-b0869c4703ab" name="Default Changelist" comment="" />
+      <created>1570360710838</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1570099096666</updated>
+      <updated>1570360710838</updated>
     </task>
     <servers />
   </component>
