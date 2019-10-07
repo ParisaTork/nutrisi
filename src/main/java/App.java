@@ -34,5 +34,15 @@ public class App {
             model.put("foodDAO", foodDAO);
             return new ModelAndView(model, "templates/searchresults.vtl");
         }, new VelocityTemplateEngine());
+
+        get("/tagresults", (request, response) -> {
+            Map<String, Object> model = new HashMap<>();
+            String tag = request.queryParams("tag");
+            model.put("tag", tag);
+            model.put("foodDAO", foodDAO);
+            return new ModelAndView(model, "templates/tagresults.vtl");
+        }, new VelocityTemplateEngine());
+
+
     }
 }

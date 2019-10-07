@@ -104,6 +104,13 @@ public class Sql2oFoodDAO implements FoodDAO {
 
     @Override
     public List<Food> findByTag(String tag) {
+        try(Connection con = sql2o.open()){
+            return con.createQuery("SELECT * FROM food WHERE tag = :tag;")
+                    .addParameter("tag", tag)
+                    .executeAndFetch(Food.class);
+        } catch(Sql2oException e){
+            System.out.println(e);
+        }
         return null;
     }
     

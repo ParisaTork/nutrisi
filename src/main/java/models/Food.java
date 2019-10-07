@@ -13,8 +13,9 @@ public class Food {
     private double carbs;
     private double fibre;
     private String photo;
+    private String tag;
 
-    public Food(int id, String name, String category, double calories, double protein, double fat, double carbs, double fibre) {
+    public Food(int id, String name, String category, double calories, double protein, double fat, double carbs, double fibre, String tag) {
         this.id = id;
         this.name = name;
         this.category = category;
@@ -23,6 +24,7 @@ public class Food {
         this.fat = fat;
         this.carbs = carbs;
         this.fibre = fibre;
+        this.tag = tag;
     }
 
     public int getId() {
@@ -90,6 +92,8 @@ public class Food {
     }
 
     public String getPhoto() { return photo; }
+
+    public String getTag() {return tag;}
 
     @Override
     public boolean equals(Object o) {
