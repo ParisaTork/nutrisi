@@ -98,8 +98,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 p{
     font-family: $font_stack_1;
-    line-height: 1.7;
+    line-height: 3;
     font-size: 15px;
+    margin-top: 50px;
     margin-bottom: 0px;
     color: $p_color;
 }
@@ -144,7 +145,8 @@ h5 {
 }
 
 img {
-    max-width: 50px;
+    max-width: 100%;
+    height: auto !important;
 }
 
 a:focus, .button:focus, button:focus, .btn:focus {

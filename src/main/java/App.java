@@ -13,7 +13,7 @@ public class App {
         staticFileLocation("/public");
 
         String connectionString = "jdbc:postgresql://localhost:5432/nutrisi";
-        Sql2o sql2o = new Sql2o(connectionString, "student", "");
+        Sql2o sql2o = new Sql2o(connectionString, "parisatork", "Co1ona99");
         Sql2oFoodDAO foodDAO = new Sql2oFoodDAO(sql2o);
 
         get("/", (request, response) -> {
@@ -33,7 +33,7 @@ public class App {
             String name = request.queryParams("name");
             model.put("name", name);
             model.put("foodDAO", foodDAO);
-            return new ModelAndView(model, "templates/searchresults.vtl");
+            return new ModelAndView(model, "searchresults.html");
         }, new VelocityTemplateEngine());
     }
 }

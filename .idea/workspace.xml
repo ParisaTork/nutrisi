@@ -2,269 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02031bf7-9696-4d5d-9add-9ff09f03a819" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/css/normalize.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/img/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/js/jquery-1.11.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/js/jquery.nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shAutoloader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shBrushAS3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shBrushAppleScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shBrushBash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shBrushCSharp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shBrushColdFusion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shBrushCpp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shBrushCss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shBrushDelphi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shBrushDiff.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shBrushErlang.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shBrushGroovy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shBrushJScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shBrushJava.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shBrushJavaFX.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shBrushPerl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shBrushPhp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shBrushPlain.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shBrushPowerShell.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shBrushPython.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shBrushRuby.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shBrushSass.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shBrushScala.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shBrushSql.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shBrushVb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shBrushXml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shCore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/scripts/shLegacy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/styles/shCore.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/styles/shCoreDefault.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/styles/shCoreDjango.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/styles/shCoreEclipse.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/styles/shCoreEmacs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/styles/shCoreFadeToGrey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/styles/shCoreMDUltra.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/styles/shCoreMidnight.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/styles/shCoreRDark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/styles/shThemeDefault.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/styles/shThemeDjango.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/styles/shThemeEclipse.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/styles/shThemeEmacs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/styles/shThemeFadeToGrey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/styles/shThemeMDUltra.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/styles/shThemeMidnight.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/194 Restaurant DOC/syntax-highlighter/styles/shThemeRDark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/contact_process.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/aos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/flaticon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/gijgo.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/magnific-popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/nice-select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/style.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/swiper.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/themify-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/elements.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/Flaticon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/Flaticon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/Flaticon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/Flaticon.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/gijgo-material.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/gijgo-material.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/themify.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/themify.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/themify.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/themify.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/food_menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/Quote.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/about.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/about_overlay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/animate_icon/icon_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/animate_icon/icon_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/animate_icon/icon_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/animate_icon/icon_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/animate_icon/icon_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/animate_icon/icon_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/animate_icon/icon_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/animate_icon/icon_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/banner_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/banner_overlay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog/author.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog/blog_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog/blog_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog/blog_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog/blog_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog/learn_about_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog/single_blog_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog/single_blog_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog/single_blog_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog/single_blog_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog/single_blog_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog/slide_thumb_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/booking_tabel_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/breadcrumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/client/client_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/client/client_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/client/client_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/comment/comment_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/comment/comment_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/comment/comment_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/contact_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/a2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/disabled-check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/disabled-radio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/f1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/f2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/f3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/f4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/f5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/f6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/f7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/f8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/g1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/g2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/g3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/g4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/g5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/g6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/g7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/g8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/primary-check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/primary-radio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/success-check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/success-radio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/food_item/food_item_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/food_item/food_item_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/food_item/food_item_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/food_menu/single_food_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/food_menu/single_food_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/food_menu/single_food_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/food_menu/single_food_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/food_menu/single_food_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/food_menu/single_food_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/icon/left_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/icon/left_2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/icon/left_3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/icon/play.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/icon/quate.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/intro_video_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/menu_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/post/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/post/post_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/post/post_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/post/post_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/post/post_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/post/post_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/post/post_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/post/post_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/post/post_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/post/post_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/post/post_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/post/preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/team/chefs_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/team/chefs_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/team/chefs_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/aos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/gijgo.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/gmaps.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/jquery-1.12.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/jquery-3.3.1.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/jquery.ajaxchimp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/jquery.easing.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/jquery.form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/jquery.magnific-popup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/jquery.nice-select.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/mail-script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/masonry.pkgd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/masonry.pkgd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/particles.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/slick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/swiper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/swiper_custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_about.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_banner.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_blog.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_blog_part.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_breadcrumb.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_chefs_part.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_common.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_contact.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_contact_part.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_copyright_part.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_elements.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_exclusive_item_part.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_extends.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_food_menu.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_gallery_part.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_intro_video_bg.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_menu.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_portfolio.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_project_details.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_regervation_part.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_review.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_service.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_single_blog.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_social_connect_part.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_team.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/single-blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/webfonts/fa-solid-900.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.vtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/elements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/food_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/searchresults.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/sass/_banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_banner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/sass/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/sass/_elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_elements.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/sass/_food_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_food_menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/sass/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/single-blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/single-blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/searchresults.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/searchresults.vtl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.vtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/searchresults.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/searchresults.vtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velocity.log" beforeDir="false" afterPath="$PROJECT_DIR$/velocity.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -308,6 +63,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
   <component name="RecentsManager">
@@ -376,7 +132,13 @@
       <workItem from="1570393474690" duration="9000" />
       <workItem from="1570393490412" duration="1730000" />
       <workItem from="1570395305449" duration="1703000" />
-      <workItem from="1570397133849" duration="506000" />
+      <workItem from="1570397133849" duration="594000" />
+      <workItem from="1570399864598" duration="1751000" />
+      <workItem from="1570401695189" duration="476000" />
+      <workItem from="1570402358797" duration="944000" />
+      <workItem from="1570435929338" duration="1171000" />
+      <workItem from="1570438946889" duration="295000" />
+      <workItem from="1570452263069" duration="1283000" />
     </task>
     <servers />
   </component>

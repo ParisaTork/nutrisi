@@ -12,7 +12,7 @@
     @media #{$medium_device}{
         height: 650px;
     }
-    
+
     .banner_text{
         display: table;
         width: 100%;
@@ -21,7 +21,7 @@
         .banner_text_iner{
             display: table-cell;
             vertical-align: middle;
-            
+
         }
         @media #{$tab}{
             text-align: center;
@@ -72,5 +72,5 @@
         }
     }
 }
-  
+
 /**************** hero part css end ****************/

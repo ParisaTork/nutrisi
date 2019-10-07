@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>Buri HTML5 Bootstrap Template by Colorlib</title>
+    <title>Nutrisi - Know Your Food</title>
     <link rel="icon" href="img/favicon.png" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -63,7 +63,7 @@
                         <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="food_menu.html">Menu</a>
+                        <a class="nav-link" href="searchresults.html">Menu</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a
@@ -127,8 +127,8 @@
                 <div class="col-lg-12">
                     <div class="breadcrumb_iner">
                         <div class="breadcrumb_iner_item">
-                            <p>Home. Menu</p>
-                            <h2>Menu Items</h2>
+                            <p>Nutritional Information</p>
+                            <h2>Search Results</h2>
                         </div>
                     </div>
                 </div>
@@ -143,57 +143,19 @@
             <div class="row justify-content-center">
                 <div class="col-lg-12">
                     <div class="single-member">
-                    <div class="row">
-                        <div class="col-sm-6 col-lg-6">
-                        <div class="single_food_item media">
-                            <img src="img/food_menu/single_food_1.png" class="img-responsive" alt="...">
-                            <div class="media-body align-self-center">
-                            <h3>Pork Sandwich</h3>
-                            <p>They're wherein heaven seed hath nothing</p>
-                            <h5>Form $40.00</h5>
-                            </div>
-                        </div>
-                        <div class="single_food_item media">
-                            <img src="img/food_menu/single_food_2.png" class="img-responsive" alt="...">
-                            <div class="media-body align-self-center">
-                            <h3>Roasted Marrow</h3>
-                            <p>They're wherein heaven seed hath nothing</p>
-                            <h5>Form $40.00</h5>
-                            </div>
-                        </div>
-                        <div class="single_food_item media">
-                            <img src="img/food_menu/single_food_3.png" class="img-responsive" alt="...">
-                            <div class="media-body align-self-center">
-                            <h3>Summer Cooking</h3>
-                            <p>They're wherein heaven seed hath nothing</p>
-                            <h5>Form $40.00</h5>
-                            </div>
+                        <h2> Nutritional Information for '$name' </h2>
+                        <img src=$foodDAO.findByName($name).getPhoto() />
+                        <div class="nutritionalinformation">
+                            <p>
+                                <strong>Category :</strong> $foodDAO.findByName($name).getCategory() <br/>
+                                <strong>Calories :</strong> $foodDAO.findByName($name).getCalories() <br/>
+                                <strong>Protein :</strong> $foodDAO.findByName($name).getProtein() <br/>
+                                <strong>Fat :</strong> $foodDAO.findByName($name).getFat() <br/>
+                                <strong>Carbohydrates :</strong> $foodDAO.findByName($name).getCarbs() <br/>
+                                <strong>Fibre :</strong> $foodDAO.findByName($name).getFibre() <br/>
+                            </p>
                         </div>
                         </div>
-                        <div class="col-sm-6 col-lg-6">
-                        <div class="single_food_item media">
-                            <img src="img/food_menu/single_food_4.png" class="img-responsive" alt="...">
-                            <div class="media-body align-self-center">
-                            <h3>Easter Delight</h3>
-                            <p>They're wherein heaven seed hath nothing</p>
-                            <h5>Form $40.00</h5>
-                            </div>
-                        </div>
-                        <div class="single_food_item media">
-                            <img src="img/food_menu/single_food_5.png" class="img-responsive" alt="...">
-                            <div class="media-body align-self-center">
-                            <h3>Tiener Schnitze</h3>
-                            <p>They're wherein heaven seed hath nothing</p>
-                            <h5>Form $40.00</h5>
-                            </div>
-                        </div>
-                        <div class="single_food_item media">
-                            <img src="img/food_menu/single_food_6.png" class="img-responsive" alt="...">
-                            <div class="media-body align-self-center">
-                            <h3>Chicken Roast</h3>
-                            <p>They're wherein heaven seed hath nothing</p>
-                            <h5>Form $40.00</h5>
-                            </div>
                         </div>
                         </div>
                     </div>
