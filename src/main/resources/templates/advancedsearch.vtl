@@ -2,12 +2,49 @@
 <html>
 <body>
 <h1>Nutrisi</h1>
-<form action="/tagresults">
+<form name="categoryform" action="/categoryresults">
+    <select name="category">
+        <option disabled value>Select a tag</option>
+        <option value="fruit">Fruit</option>
+        <option value="vegetable">Vegetable</option>
+        <option value="nut">Nut</option>
+        <option value="legume">Legume</option>
+        <option value="seed">Seed</option>
+        <option value="meat">Meat</option>
+    </select>
+    <input type="submit" value = "Search by category">
+</form>
+<form name="calorierangeform" action="/calorierangeresults">
+    <select name="calorierange">
+        <option disabled value>Select a calorie range</option>
+        <option value="0-99">0 - 99</option>
+        <option value="100-199">100 - 199</option>
+        <option value="200-299">200 - 299</option>
+        <option value="300-399">300 - 399</option>
+        <option value="400-499">400 - 499</option>
+        <option value="500-599">500 - 599</option>
+        <option value="600-699">600 - 699</option>
+    </select>
+    <input type="submit" value = "Search by calorie range">
+</form>
+<form name="proteinrangeform" action="/proteinrangeresults">
+    <select name="proteinrange">
+        <option disabled value>Select a protein range</option>
+        <option value="0-9">0 - 9</option>
+        <option value="10-19">10 - 19</option>
+        <option value="20-29">20 - 29</option>
+        <option value="30-39">30 - 39</option>
+    </select>
+    <input type="submit" value = "Search by protein range">
+</form>
+<form name="tagform" action="/tagresults">
     <select name="tag">
         <option disabled value>Select a tag</option>
         <option value="high protein">High Protein</option>
         <option value="high fibre">High Fibre</option>
         <option value="antioxidant-rich">Antioxidant-Rich</option>
+        <option value="low fat">Low Fat</option>
+        <option value="low carb">Low Carb</option>
     </select>
     <input type="submit" value = "Search by tag">
 </form>

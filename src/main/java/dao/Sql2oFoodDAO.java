@@ -113,5 +113,29 @@ public class Sql2oFoodDAO implements FoodDAO {
         }
         return null;
     }
-    
+
+    @Override
+    public List<Food> findByCalorieRange(String calorierange) {
+        try(Connection con = sql2o.open()){
+            return con.createQuery("SELECT * FROM food WHERE calorierange = :calorierange;")
+                    .addParameter("calorierange", calorierange)
+                    .executeAndFetch(Food.class);
+        } catch(Sql2oException e){
+            System.out.println(e);
+        }
+        return null;
+    }
+
+    @Override
+    public List<Food> findByProteinRange(String proteinrange) {
+        try(Connection con = sql2o.open()){
+            return con.createQuery("SELECT * FROM food WHERE proteinrange = :proteinrange;")
+                    .addParameter("proteinrange", proteinrange)
+                    .executeAndFetch(Food.class);
+        } catch(Sql2oException e){
+            System.out.println(e);
+        }
+        return null;
+    }
+
 }
