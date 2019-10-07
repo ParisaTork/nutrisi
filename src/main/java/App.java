@@ -43,6 +43,13 @@ public class App {
             return new ModelAndView(model, "templates/tagresults.vtl");
         }, new VelocityTemplateEngine());
 
+        get("/advancedsearch", (request, response) -> {
+            Map<String, Object> model = new HashMap<>();
+            return new ModelAndView(model, "templates/advancedsearch.vtl");
+        }, new VelocityTemplateEngine());
+
+
+
 
     }
 }

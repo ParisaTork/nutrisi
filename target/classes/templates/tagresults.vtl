@@ -6,6 +6,14 @@
 <ul>
     #foreach ($foodDAO in $foodDAO.findByTag($tag))
         <li>$foodDAO.getName()</li>
+        <p>
+            <strong>Category :</strong> $foodDAO.getCategory() <br/>
+            <strong>Calories :</strong> $foodDAO.getCalories() <br/>
+            <strong>Protein :</strong> $foodDAO.getProtein() <br/>
+            <strong>Fat :</strong> $foodDAO.getFat() <br/>
+            <strong>Carbohydrates :</strong> $foodDAO.getCarbs() <br/>
+            <strong>Fibre :</strong> $foodDAO.getFibre() <br/>
+        </p>
     #end
 </ul>
 </body>
