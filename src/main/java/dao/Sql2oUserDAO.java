@@ -50,9 +50,10 @@ public class Sql2oUserDAO implements UserDAO{
     @Override
     public User authenticate(String email, String password) {
         try(Connection con = sql2o.open()) {
-            User result = con.createQuery("SELECT email, password FROM users WHERE email = :email")
+            User result = con.createQuery("SELECT name, email, password FROM users WHERE email = :email")
                     .addParameter("email", email)
                     .executeAndFetchFirst(User.class);
+
 //            Boolean pwMatched = BCrypt.checkpw(password, result.getPassword());
 //            System.out.println("result: " + result);
 //            if (result != null && pwMatched) {
@@ -64,10 +65,11 @@ public class Sql2oUserDAO implements UserDAO{
 //            }
 //            System.out.println("error: " + error);
             if (result == null) {
-                error = "Incorrect email";
+                error = "Incorrect email! Please try again!";
             } else if (!BCrypt.checkpw(password, result.getPassword())) {
-                error = "Incorrect password";
+                error = "Incorrect password! Please try again!";
             } else {
+                result.setLoggedIn();
                 return result;
             }
         } catch (Sql2oException e) {

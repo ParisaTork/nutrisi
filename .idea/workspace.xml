@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02031bf7-9696-4d5d-9add-9ff09f03a819" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VelocityTemplateEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/searchresults.vtl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/Sql2oUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/Sql2oUserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Food.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.vtl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dao/Sql2oUserDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dao/Sql2oUserDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/girlgang.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.vtl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +25,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -48,11 +45,12 @@
   <component name="ProjectId" id="1RgqTqaaHdJTHyRvouHe2LS7pwK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
@@ -86,7 +84,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Sql2oUserDAOTest.canEncryptPasswordWithBcrypt">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="girlgang" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Sql2oUserDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="girlgang" />
       <extension name="coverage">
@@ -98,38 +103,6 @@
       <option name="PACKAGE_NAME" value="dao" />
       <option name="MAIN_CLASS_NAME" value="dao.Sql2oUserDAOTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sql2oUserDAOTest.authenticateCorrectLoginDetailsReturnsUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="girlgang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dao" />
-      <option name="MAIN_CLASS_NAME" value="dao.Sql2oUserDAOTest" />
-      <option name="METHOD_NAME" value="authenticateCorrectLoginDetailsReturnsUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sql2oUserDAOTest.authenticateIncorrectEmailGivesError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="girlgang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dao" />
-      <option name="MAIN_CLASS_NAME" value="dao.Sql2oUserDAOTest" />
-      <option name="METHOD_NAME" value="authenticateIncorrectEmailGivesError" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,7 +123,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sql2oUserDAOTest.createNewUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Sql2oUserDAOTest.userCanLogIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="girlgang" />
       <extension name="coverage">
         <pattern>
@@ -160,7 +133,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="dao" />
       <option name="MAIN_CLASS_NAME" value="dao.Sql2oUserDAOTest" />
-      <option name="METHOD_NAME" value="createNewUser" />
+      <option name="METHOD_NAME" value="userCanLogIn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sql2oUserDAOTest.userCanLogOut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="girlgang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.Sql2oUserDAOTest" />
+      <option name="METHOD_NAME" value="userCanLogOut" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Sql2oUserDAOTest.canEncryptPasswordWithBcrypt" />
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.Sql2oUserDAOTest" />
-        <item itemvalue="JUnit.Sql2oUserDAOTest.authenticateCorrectLoginDetailsReturnsUser" />
-        <item itemvalue="JUnit.Sql2oUserDAOTest.createNewUser" />
-        <item itemvalue="JUnit.Sql2oUserDAOTest.authenticateIncorrectEmailGivesError" />
+        <item itemvalue="JUnit.Sql2oUserDAOTest.userCanLogOut" />
+        <item itemvalue="JUnit.Sql2oUserDAOTest.userCanLogIn" />
+        <item itemvalue="JUnit.Sql2oUserDAOTest.canEncryptPasswordWithBcrypt" />
       </list>
     </recent_temporary>
   </component>

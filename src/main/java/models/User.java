@@ -7,11 +7,13 @@ public class User {
     private String name;
     private String email;
     private String password;
+    private Boolean loggedIn;
 
     public User(String name, String email, String password) {
         this.name = name;
         this.email = email;
         this.password = password;
+        this.loggedIn = false;
     }
 
     public void setId(int id) { this.id = id; }
@@ -23,6 +25,12 @@ public class User {
     public String getEmail() {return this.email; }
 
     public String getPassword() {return this.password; }
+
+    public void setLoggedIn() { this.loggedIn = true; }
+
+    public Boolean getLoggedIn() { return this.loggedIn; }
+
+    public void logOut() { this.loggedIn = false; }
 
     @Override
     public boolean equals(Object o) {

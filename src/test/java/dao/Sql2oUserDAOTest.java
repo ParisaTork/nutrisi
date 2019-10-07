@@ -74,8 +74,24 @@ public class Sql2oUserDAOTest {
         User auth = userDAO.authenticate("natalie@yahoo.com", password);
         assertNotEquals(password,hashpass);
         assertEquals("natalie@yahoo.com",auth.getEmail());
-
     }
+
+    @Test
+    public void userCanLogIn() {
+        userDAO.create("Natalie","natalie@yahoo.com","pass1234");
+        User auth = userDAO.authenticate("natalie@yahoo.com","pass1234");
+        assertTrue(auth.getLoggedIn());
+    }
+
+    @Test
+    public void userCanLogOut() {
+        userDAO.create("Natalie","natalie@yahoo.com","pass1234");
+        User auth = userDAO.authenticate("natalie@yahoo.com","pass1234");
+        auth.logOut();
+        assertFalse(auth.getLoggedIn());
+    }
+
+
     @After
     public void tearDown(){
         connection.createQuery("TRUNCATE users RESTART IDENTITY CASCADE").executeUpdate();
