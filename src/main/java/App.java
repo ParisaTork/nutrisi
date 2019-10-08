@@ -90,6 +90,7 @@ public class App {
             Map<String, Object> model = new HashMap<>();
             request.session().removeAttribute("username");
             return new ModelAndView(model, "templates/bye.vtl");
+        }, new VelocityTemplateEngine());
 
         get("/advancedsearch", (request, response) -> {
             Map<String, Object> model = new HashMap<>();
