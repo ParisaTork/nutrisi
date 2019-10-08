@@ -27,7 +27,7 @@ public class Sql2oUserDAOTest {
         User user = userDAO.create("Natalie","natalie@yahoo.com","pass1234");
         assertEquals("Natalie",user.getName());
         assertEquals("natalie@yahoo.com", user.getEmail());
-        assertEquals("pass1234", user.getPassword());
+//        assertEquals("pass1234", user.getPassword());
         assertEquals(1, user.getId());
     }
 
@@ -65,6 +65,32 @@ public class Sql2oUserDAOTest {
         User auth = userDAO.authenticate("natalie@yahoo.com","wrongpass");
         assertEquals("Incorrect password", userDAO.getError());
     }
+
+    @Test
+    public void canEncryptPasswordWithBcrypt(){
+        String password = "pass1234";
+        User user = userDAO.create("Natalie","natalie@yahoo.com", password);
+        String hashpass = user.getPassword();
+        User auth = userDAO.authenticate("natalie@yahoo.com", password);
+        assertNotEquals(password,hashpass);
+        assertEquals("natalie@yahoo.com",auth.getEmail());
+    }
+
+    @Test
+    public void userCanLogIn() {
+        userDAO.create("Natalie","natalie@yahoo.com","pass1234");
+        User auth = userDAO.authenticate("natalie@yahoo.com","pass1234");
+        assertTrue(auth.getLoggedIn());
+    }
+
+    @Test
+    public void userCanLogOut() {
+        userDAO.create("Natalie","natalie@yahoo.com","pass1234");
+        User auth = userDAO.authenticate("natalie@yahoo.com","pass1234");
+        auth.logOut();
+        assertFalse(auth.getLoggedIn());
+    }
+
 
     @After
     public void tearDown(){
