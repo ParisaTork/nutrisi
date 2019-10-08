@@ -72,5 +72,21 @@ public class App {
             return new ModelAndView(model, "templates/proteinrangeresults.vtl");
         }, new VelocityTemplateEngine());
 
+        get("/carbrangeresults", (request, response) -> {
+            Map<String, Object> model = new HashMap<>();
+            String carbrange = request.queryParams("carbrange");
+            model.put("carbrange", carbrange);
+            model.put("foodDAO", foodDAO);
+            return new ModelAndView(model, "templates/carbrangeresults.vtl");
+        }, new VelocityTemplateEngine());
+
+        get("/fatrangeresults", (request, response) -> {
+            Map<String, Object> model = new HashMap<>();
+            String fatrange = request.queryParams("fatrange");
+            model.put("fatrange", fatrange);
+            model.put("foodDAO", foodDAO);
+            return new ModelAndView(model, "templates/fatrangeresults.vtl");
+        }, new VelocityTemplateEngine());
+
     }
 }

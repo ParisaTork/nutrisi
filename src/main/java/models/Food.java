@@ -16,6 +16,8 @@ public class Food {
     private String tag;
     private String calorierange;
     private String proteinrange;
+    private String carbrange;
+    private String fatrange;
 
     public Food(int id, String name, String category, double calories, double protein, double fat, double carbs, double fibre, String tag, String calorierange) {
         this.id = id;
@@ -101,6 +103,10 @@ public class Food {
     public String getCalorieRange() {return calorierange;}
 
     public String getProteinRange() {return proteinrange;}
+
+    public String getCarbRange() { return carbrange; }
+
+    public String getFatRange() { return fatrange; }
 
     @Override
     public boolean equals(Object o) {
