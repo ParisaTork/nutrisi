@@ -1,5 +1,6 @@
 package models;
 
+import java.util.ArrayList;
 import java.util.Objects;
 
 public class User {
@@ -8,6 +9,7 @@ public class User {
     private String email;
     private String password;
     private Boolean loggedIn;
+    private ArrayList<String> favourites;
 
     public User(String name, String email, String password) {
         this.name = name;
@@ -31,6 +33,8 @@ public class User {
     public Boolean getLoggedIn() { return this.loggedIn; }
 
     public void logOut() { this.loggedIn = false; }
+
+    public ArrayList<String> getFav() { return this.favourites; }
 
     @Override
     public boolean equals(Object o) {

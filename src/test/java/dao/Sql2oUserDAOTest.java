@@ -6,9 +6,15 @@ import org.junit.Test;
 import org.sql2o.Connection;
 import org.sql2o.Sql2o;
 
+import java.sql.Array;
 import java.sql.SQLOutput;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 import static org.junit.Assert.*;
+import static org.hamcrest.Matchers.*;
+
 
 public class Sql2oUserDAOTest {
     private Sql2oUserDAO userDAO;
@@ -90,7 +96,28 @@ public class Sql2oUserDAOTest {
         auth.logOut();
         assertFalse(auth.getLoggedIn());
     }
-
+//    @Test
+//    public void userCanListFavourites() {
+//        userDAO.create("Natalie","natalie@yahoo.com","pass1234");
+//        User auth = userDAO.authenticate("natalie@yahoo.com","pass1234");
+//        ArrayList<String> favourites = userDAO.listFav(auth.getId());
+//        System.out.println("Fav: " + favourites);
+//        assertNull(favourites);
+//    }
+//
+//    @Test
+//    public void userCanAddItemToFavorites() {
+//        userDAO.create("Natalie","natalie@yahoo.com","pass1234");
+//        User auth = userDAO.authenticate("natalie@yahoo.com","pass1234");
+//        userDAO.addFav(auth.getId(),"walnut");
+////        String favourites = userDAO.listFav(auth.getId()).get(0);
+////        String[] fav = favourites.toArray(new String[favourites.size()]);
+//         ArrayList<String> favourites = userDAO.listFav(auth.getId());
+//
+//        System.out.println(favourites);
+//
+////        assertThat(favourites, hasItem("walnut"));
+//    }
 
     @After
     public void tearDown(){

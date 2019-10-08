@@ -7,6 +7,8 @@ import org.sql2o.Sql2o;
 import org.sql2o.Sql2oException;
 import org.sql2o.data.Row;
 
+import java.sql.Array;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Sql2oUserDAO implements UserDAO{
@@ -50,20 +52,9 @@ public class Sql2oUserDAO implements UserDAO{
     @Override
     public User authenticate(String email, String password) {
         try(Connection con = sql2o.open()) {
-            User result = con.createQuery("SELECT name, email, password FROM users WHERE email = :email")
+            User result = con.createQuery("SELECT id, name, email, password FROM users WHERE email = :email")
                     .addParameter("email", email)
                     .executeAndFetchFirst(User.class);
-
-//            Boolean pwMatched = BCrypt.checkpw(password, result.getPassword());
-//            System.out.println("result: " + result);
-//            if (result != null && pwMatched) {
-//                return  result;
-//            } else if (result != null && !pwMatched) {
-//                error = "Incorrect password";
-//            } else if (result == null) {
-//                error = "Incorrect email";
-//            }
-//            System.out.println("error: " + error);
             if (result == null) {
                 error = "Incorrect email! Please try again!";
             } else if (!BCrypt.checkpw(password, result.getPassword())) {
@@ -76,5 +67,31 @@ public class Sql2oUserDAO implements UserDAO{
             e.printStackTrace();
         }
         return null;
+    }
+
+    @Override
+    public ArrayList<String> listFav(int userId) {
+        try(Connection con = sql2o.open()) {
+            User result = con.createQuery("SELECT favourites FROM users WHERE id = :id")
+                    .addParameter("id", userId)
+                    .executeAndFetchFirst(User.class);
+            return result.getFav();
+
+        } catch (Sql2oException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    @Override
+    public void addFav(int userId, String foodName) {
+        try (Connection con = sql2o.open()) {
+            con.createQuery("UPDATE users SET favourites = array_append(favourites, :foodName) WHERE id = :id ")
+                    .addParameter("id", userId)
+                    .addParameter("foodName", foodName)
+                    .executeUpdate();
+        } catch (Sql2oException e) {
+            e.printStackTrace();
+        }
     }
 }
