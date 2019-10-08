@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02031bf7-9696-4d5d-9add-9ff09f03a819" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/carbrangeresults.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fatrangeresults.vtl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/FoodDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/FoodDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/Sql2oFoodDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/Sql2oFoodDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Food.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/advancedsearch.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/advancedsearch.vtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velocity.log" beforeDir="false" afterPath="$PROJECT_DIR$/velocity.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
