@@ -20,4 +20,12 @@ public interface FoodDAO {
     List<Food> findByFibre(double fibre);
 
     List<Food> findByTag(String tag);
+
+    List<Food> findByCalorieRange(String calorierange);
+
+    List<Food> findByProteinRange(String proteinrange);
+
+    List<Food> findByCarbRange(String carbrange);
+
+    List<Food> findByFatRange(String fatrange);
 }
