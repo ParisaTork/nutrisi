@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="02031bf7-9696-4d5d-9add-9ff09f03a819" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/advancedsearch.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/advancedsearch.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velocity.log" beforeDir="false" afterPath="$PROJECT_DIR$/velocity.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,74 +75,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
-      <module name="girlgang" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sql2oUserDAOTest.authenticateCorrectLoginDetailsReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="girlgang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dao" />
-      <option name="MAIN_CLASS_NAME" value="dao.Sql2oUserDAOTest" />
-      <option name="METHOD_NAME" value="authenticateCorrectLoginDetailsReturnTrue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sql2oUserDAOTest.authenticateIncorrectEmailGivesError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="girlgang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dao" />
-      <option name="MAIN_CLASS_NAME" value="dao.Sql2oUserDAOTest" />
-      <option name="METHOD_NAME" value="authenticateIncorrectEmailGivesError" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sql2oUserDAOTest.authenticateIncorrectEmailReturnsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="girlgang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dao" />
-      <option name="MAIN_CLASS_NAME" value="dao.Sql2oUserDAOTest" />
-      <option name="METHOD_NAME" value="authenticateIncorrectEmailReturnsNull" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sql2oUserDAOTest.authenticateIncorrectPasswordGivesError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="girlgang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dao" />
-      <option name="MAIN_CLASS_NAME" value="dao.Sql2oUserDAOTest" />
-      <option name="METHOD_NAME" value="authenticateIncorrectPasswordGivesError" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,10 +85,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.Sql2oUserDAOTest.authenticateIncorrectPasswordGivesError" />
-        <item itemvalue="JUnit.Sql2oUserDAOTest.authenticateIncorrectEmailGivesError" />
-        <item itemvalue="JUnit.Sql2oUserDAOTest.authenticateIncorrectEmailReturnsNull" />
-        <item itemvalue="JUnit.Sql2oUserDAOTest.authenticateCorrectLoginDetailsReturnTrue" />
       </list>
     </recent_temporary>
   </component>
