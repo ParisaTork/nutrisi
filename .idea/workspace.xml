@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41c63a68-e79f-4431-9ec6-5f9f3971817c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="02031bf7-9696-4d5d-9add-9ff09f03a819" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/VelocityTemplateEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/VelocityTemplateEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/FoodDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/FoodDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/Sql2oFoodDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/Sql2oFoodDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/Food.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dao/Sql2oFoodDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dao/Sql2oFoodDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/models/FoodTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/models/FoodTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
