@@ -1,0 +1,19 @@
+<!DOCTYPE>
+<html>
+<body>
+<h1>Nutrisi</h1>
+<h2> Nutritional Information for '$category' </h2>
+<ul>
+    #foreach ($foodDAO in $foodDAO.findByCategory($category))
+        <li>$foodDAO.getName()</li>
+        <p>
+            <strong>Calories :</strong> $foodDAO.getCalories() <br/>
+            <strong>Protein :</strong> $foodDAO.getProtein() <br/>
+            <strong>Fat :</strong> $foodDAO.getFat() <br/>
+            <strong>Carbohydrates :</strong> $foodDAO.getCarbs() <br/>
+            <strong>Fibre :</strong> $foodDAO.getFibre() <br/>
+        </p>
+    #end
+</ul>
+</body>
+</html>

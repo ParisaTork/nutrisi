@@ -22,11 +22,11 @@ public class Sql2oFoodDAOTest {
         Sql2o sql2o = new Sql2o(connectionString, "student", "");
         FoodDAO = new Sql2oFoodDAO(sql2o);
         con = sql2o.open();
+        walnut = new Food(1, "walnut", "nut", 654.0, 15.23, 65.21, 13.71, 6.7, "high protein", "600-699");
     }
 
     @Test
     public void canFindByName() {
-        walnut = new Food(1, "walnut", "nut", 654.0, 15.23, 65.21, 13.71, 6.7);
         Food foundNut = FoodDAO.findByName("walnut");
         assertEquals(walnut, foundNut);
 
@@ -34,7 +34,6 @@ public class Sql2oFoodDAOTest {
 
     @Test
     public void canFindByCategory() {
-        walnut = new Food(1, "walnut", "nut", 654.0, 15.23, 65.21, 13.71, 6.7);
         List<Food> foundNut = FoodDAO.findByCategory("nut");
         assertThat(foundNut, contains(walnut));
 
@@ -42,35 +41,30 @@ public class Sql2oFoodDAOTest {
 
     @Test
     public void canFindByCalories(){
-        walnut = new Food(1, "walnut", "nut", 654.0, 15.23, 65.21, 13.71, 6.7);
         List<Food> foundNut = FoodDAO.findByCalories(654.0);
         assertThat(foundNut, contains(walnut));
     }
 
     @Test
     public void canFindByProtein(){
-        walnut = new Food(1, "walnut", "nut", 654.0, 15.23, 65.21, 13.71, 6.7);
         List<Food> foundNut = FoodDAO.findByProtein(15.23);
         assertThat(foundNut, contains(walnut));
     }
 
     @Test
     public void canFindByFat(){
-        walnut = new Food(1, "walnut", "nut", 654.0, 15.23, 65.21, 13.71, 6.7);
         List<Food> foundNut = FoodDAO.findByFat(65.21);
         assertThat(foundNut, contains(walnut));
     }
 
     @Test
     public void canFindByCarbs(){
-        walnut = new Food(1, "walnut", "nut", 654.0, 15.23, 65.21, 13.71, 6.7);
         List<Food> foundNut = FoodDAO.findByCarbs(13.71);
         assertThat(foundNut, contains(walnut));
     }
 
     @Test
     public void canFindByFibre(){
-        walnut = new Food(1, "walnut", "nut", 654.0, 15.23, 65.21, 13.71, 6.7);
         List<Food> foundNut = FoodDAO.findByFibre(6.7);
         assertThat(foundNut, contains(walnut));
     }
