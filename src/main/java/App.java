@@ -33,7 +33,7 @@ public class App {
             String name = request.queryParams("name");
             model.put("name", name);
             model.put("foodDAO", foodDAO);
-            return new ModelAndView(model, "searchresults.html");
+            return new ModelAndView(model, "templates/searchresults.vtl");
         }, new VelocityTemplateEngine());
     }
 }
