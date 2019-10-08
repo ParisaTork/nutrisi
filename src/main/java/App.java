@@ -46,6 +46,7 @@ public class App {
             Map<String, Object> model = new HashMap<String, Object>();
             String error = request.session().attribute("errormessage");
             model.put("errormessage",error);
+            request.session().removeAttribute("errormessage");
             return new ModelAndView(model, "templates/login.vtl");
         }, new VelocityTemplateEngine());
 
@@ -58,9 +59,11 @@ public class App {
                 String error = userDAO.getError();
                 request.session().attribute("errormessage",error);
                 response.redirect("/login");
+
             } else {
                 String username = user.getName();
                 request.session().attribute("username", username);
+
                 response.redirect("/");
             }
 //            model.put("user", user);
