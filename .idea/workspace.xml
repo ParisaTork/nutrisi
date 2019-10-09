@@ -2,37 +2,175 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02031bf7-9696-4d5d-9add-9ff09f03a819" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/00ee31cb8615c192b936b37142c04391232786c8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/8/08fd4d05331df73808435971d121bd8c04c01bab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/202ec2ab47c0e0268637406328137b3b969b465e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/2/22e6ad343f7dc0c3da7c203f8f0102ffac13f860" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/350d25b539134bc3b0a90f2e81ddc9163cb0ff91" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3eff9bee5023ebd095ceb6dac35d5e8aad285b3b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/67512e2f04487cca15d6699055f74a51de1a9eb4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9d512bc8d42615c0ffa18c79bd1e19137d675fb8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d32fd62c640d7510ec64321083fb8a952fc4c35f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f7010c4f46d3b9dd8d59899249df5ba3ee23f96b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f98a2436e13af0042007cab71e1b446a3787e1cd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fa609ea026297fa352731112c136d6666ae277d7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml~master" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dao/Sql2oUserDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dao/UserDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/models/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/bye.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/login.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/signup.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/girlgang-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/dao/Sql2oUserDAOTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/models/UserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/aos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/gijgo.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/nice-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/style.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/swiper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/themify-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/Quote.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/about_overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/animate_icon/icon_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/animate_icon/icon_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/animate_icon/icon_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/animate_icon/icon_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/animate_icon/icon_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/animate_icon/icon_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/animate_icon/icon_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/animate_icon/icon_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/banner_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/banner_overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog/author.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog/blog_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog/blog_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog/blog_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog/blog_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog/learn_about_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog/single_blog_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog/single_blog_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog/single_blog_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog/single_blog_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog/single_blog_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog/slide_thumb_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/booking_tabel_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/breadcrumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/client/client_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/client/client_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/client/client_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/comment/comment_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/comment/comment_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/comment/comment_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/contact_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/disabled-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/disabled-radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/f1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/f2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/f3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/f4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/f5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/f6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/f7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/f8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/g1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/g2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/g3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/g4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/g5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/g6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/g7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/g8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/primary-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/primary-radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/success-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/elements/success-radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/food_item/food_item_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/food_item/food_item_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/food_item/food_item_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/food_menu/single_food_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/food_menu/single_food_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/food_menu/single_food_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/food_menu/single_food_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/food_menu/single_food_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/food_menu/single_food_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/icon/left_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/icon/left_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/icon/left_3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/icon/play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/icon/quate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/intro_video_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/menu_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/post/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/post/post_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/post/post_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/post/post_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/post/post_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/post/post_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/post/post_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/post/post_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/post/post_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/post/post_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/post/post_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/post/preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/team/chefs_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/team/chefs_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/team/chefs_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/aos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/gijgo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/gmaps.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/jquery-1.12.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/jquery-3.3.1.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/jquery.ajaxchimp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/jquery.magnific-popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/jquery.nice-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/mail-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/masonry.pkgd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/masonry.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/particles.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/swiper_custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_about.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_banner.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_blog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_blog_part.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_chefs_part.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_contact_part.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_copyright_part.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_elements.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_exclusive_item_part.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_extends.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_food_menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_gallery_part.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_intro_video_bg.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_portfolio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_project_details.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_regervation_part.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_review.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_service.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_single_blog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_social_connect_part.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_team.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/sass/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.vtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/searchresults.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/searchresults.vtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.vtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/searchresults.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/searchresults.vtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velocity.log" beforeDir="false" afterPath="$PROJECT_DIR$/velocity.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velocity.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/velocity.log.1" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +208,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/public" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -80,17 +218,22 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="models" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/public" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/public/img" />
+      <recent name="$PROJECT_DIR$/src/main/resources/public" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -108,6 +251,7 @@
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="girlgang" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

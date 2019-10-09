@@ -12,6 +12,7 @@ import static spark.Spark.*;
 
 public class App {
     public static void main(String[] args) {
+        staticFileLocation("/public");
         port(9000);
         String connectionString = "jdbc:postgresql://localhost:5432/nutrisi";
         Sql2o sql2o = new Sql2o(connectionString, "student", "");
@@ -35,9 +36,7 @@ public class App {
         get("/searchresults", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             String name = request.queryParams("name");
-
             model.put("name", name);
-
             model.put("foodDAO", foodDAO);
             return new ModelAndView(model, "templates/searchresults.vtl");
         }, new VelocityTemplateEngine());
