@@ -1,19 +1,24 @@
-<!DOCTYPE>
-<html>
-<body>
-<h1>Nutrisi</h1>
-<h2> Nutritional Information for '$name' </h2>
-<img src=$foodDAO.findByName($name).getPhoto() />
-<div class="nutritionalinformation">
-    <p>
-        <strong>Category :</strong> $foodDAO.findByName($name).getCategory() <br/>
-        <strong>Calories :</strong> $foodDAO.findByName($name).getCalories() <br/>
-        <strong>Protein :</strong> $foodDAO.findByName($name).getProtein() <br/>
-        <strong>Fat :</strong> $foodDAO.findByName($name).getFat() <br/>
-        <strong>Carbohydrates :</strong> $foodDAO.findByName($name).getCarbs() <br/>
-        <strong>Fibre :</strong> $foodDAO.findByName($name).getFibre() <br/>
-        <strong>Tag :</strong> $foodDAO.findByName($name).getTag() <br/>
-    </p>
-</div>
-</body>
-</html>
+<!-- food menu part start-->
+<section class="food_menu">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="single-member">
+                    <img src=$foodDAO.findByName($name).getPhoto() />
+                    <div class="nutritionalinformation">
+                        <p>
+                            <strong>Category :</strong> $foodDAO.findByName($name).getCategory() <br/>
+                            <strong>Calories :</strong> $foodDAO.findByName($name).getCalories() <br/>
+                            <strong>Protein :</strong> $foodDAO.findByName($name).getProtein() <br/>
+                            <strong>Fat :</strong> $foodDAO.findByName($name).getFat() <br/>
+                            <strong>Carbohydrates :</strong> $foodDAO.findByName($name).getCarbs() <br/>
+                            <strong>Fibre :</strong> $foodDAO.findByName($name).getFibre() <br/>
+                            <strong>Tag :</strong> $foodDAO.findByName($name).getTag() <br/>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- food menu part end-->
