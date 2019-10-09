@@ -19,6 +19,9 @@
 3	"parsnip"	"vegetable"	75.0	1.2	0.3	17.99	4.9   https://source.unsplash.com/Bt-T8tSfBkM/400x400
 4	"chickpea"	"legume"	364.0	19.0	6.0	61.0	17.0  https://source.unsplash.com/3qjblmWiW98/400x400
 5	"pumpkin seed"	"seed"          559.0	30.23	49.05	10.71	6.0   https://source.unsplash.com/J8_U_vokuKk/400x400
+6       "raisin"        "fruit"         299.0   3.07    0.46    79.18   3.7   https://source.unsplash.com/KZri3sDZJgg/400x400    "low fat"    "200-299"    "0-9"    "19+"    "0-9"
+7       "avocado"       "fruit"         160.0   2.0     14.66   8.53    6.7   https://source.unsplash.com/AWMWcR3hQUg/400x400    "low carb"    "100-199"    "0-9"    "0-9"    "10-19"
+8       "duck"          "meat"          404.0   11.49   39.34    0.0    0.0   https://source.unsplash.com/7i_YGMy_-Ho/400x400    "low carb"    "400-499"    "10-19"    "0-9"    "19+"
 ```
 
 ### Using photos from Unsplash
