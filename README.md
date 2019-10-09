@@ -4,11 +4,11 @@
 
 **'Food' table**
 
-```CREATE TABLE food(id SERIAL PRIMARY KEY, name VARCHAR(100), category VARCHAR(100), calories DECIMAL, protein DECIMAL, fat DECIMAL, carbs DECIMAL, fibre DECIMAL, photo VARCHAR(1000));```
+```CREATE TABLE food(id SERIAL PRIMARY KEY, name VARCHAR(100), category VARCHAR(100), calories DECIMAL, protein DECIMAL, fat DECIMAL, carbs DECIMAL, fibre DECIMAL, photo VARCHAR(1000), tag VARCHAR(100), calorierange VARCHAR(100), proteinrange VARCHAR(100), carbrange VARCHAR(100), fatrange VARCHAR(100));```
 
 **'Users' table**
 
-```CREATE TABLE users(id SERIAL PRIMARY KEY, name VARCHAR(100), email VARCHAR(100), password VARCHAR(100), tag VARCHAR(100), calorierange VARCHAR(100), proteinrange VARCHAR(100), carbrange VARCHAR(100), fatrange VARCHAR(100));```
+```CREATE TABLE users(id SERIAL PRIMARY KEY, name VARCHAR(100), email VARCHAR(100), password VARCHAR(100));```
 
 ### Starter 'food' table data
 
