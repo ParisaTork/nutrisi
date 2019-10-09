@@ -89,10 +89,38 @@
             <version>1.2.17</version>
         </dependency>
         <dependency>
+<<<<<<< Updated upstream
             <groupId>org.webjars</groupId>
             <artifactId>jquery</artifactId>
             <version>3.3.1</version>
+=======
+            <groupId>com.konghq</groupId>
+            <artifactId>unirest-java</artifactId>
+            <version>3.1.00</version>
+        </dependency>
+        <dependency>
+            <groupId>com.konghq</groupId>
+            <artifactId>unirest-object-mappers-gson</artifactId>
+            <version>3.1.00</version>
+>>>>>>> Stashed changes
         </dependency>
 
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.2.4</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.mashape.unirest/unirest-java -->
+        <dependency>
+            <groupId>com.mashape.unirest</groupId>
+            <artifactId>unirest-java</artifactId>
+            <version>1.4.9</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.json/json -->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20190722</version>
+        </dependency>
     </dependencies>
 </project>

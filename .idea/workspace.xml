@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02031bf7-9696-4d5d-9add-9ff09f03a819" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
@@ -10,6 +11,17 @@
       <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.vtl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/searchresults.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/searchresults.vtl" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/67512e2f04487cca15d6699055f74a51de1a9eb4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/67512e2f04487cca15d6699055f74a51de1a9eb4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/advancedsearch.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/advancedsearch.vtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.vtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/resultslayout.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/resultslayout.vtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.vtl" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/velocity.log" beforeDir="false" afterPath="$PROJECT_DIR$/velocity.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/velocity.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/velocity.log.1" afterDir="false" />
     </list>
@@ -50,10 +62,16 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -111,6 +129,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570099096666</updated>
+<<<<<<< Updated upstream
+=======
+      <workItem from="1570615866304" duration="55000" />
+      <workItem from="1570615955058" duration="1477000" />
+      <workItem from="1570617873778" duration="1291000" />
+      <workItem from="1570619701586" duration="1607000" />
+      <workItem from="1570621541031" duration="1816000" />
+      <workItem from="1570626912665" duration="232000" />
+      <workItem from="1570638301509" duration="3382000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>

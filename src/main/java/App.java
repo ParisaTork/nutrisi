@@ -8,6 +8,9 @@ import spark.template.velocity.VelocityTemplateEngine;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.json.JSONObject;
+import kong.unirest.Unirest;
+
 import static spark.Spark.*;
 
 public class App {
@@ -23,6 +26,15 @@ public class App {
 
         get("/", (request, response) -> {
             Map<String, Object> model = new HashMap<>();
+            String joke = Unirest.get("https://api.spoonacular.com/food/jokes/random?apiKey=5d9050c0cf864963aad55a329d51e429")
+                    .asString()
+                    .getBody();
+            JSONObject jokeJson = new JSONObject(joke);
+            String jokeText = jokeJson.getString("text");
+            model.put("joke", jokeText);
+            System.out.println(jokeText);
+            String test = "This is crazy!!!";
+            model.put("test", test);
             String session = request.session().attribute("username");
             model.put("username",session);
             model.put("templates", "templates/index.vtl");
