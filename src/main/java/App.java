@@ -15,7 +15,7 @@ public class App {
         staticFileLocation("/public");
         port(9000);
         String connectionString = "jdbc:postgresql://localhost:5432/nutrisi";
-        Sql2o sql2o = new Sql2o(connectionString, "student", "");
+        Sql2o sql2o = new Sql2o(connectionString, "parisatork", "Co1ona99");
         Sql2oFoodDAO foodDAO = new Sql2oFoodDAO(sql2o);
         Sql2oUserDAO userDAO = new Sql2oUserDAO(sql2o);
 
@@ -38,7 +38,8 @@ public class App {
             String name = request.queryParams("name");
             model.put("name", name);
             model.put("foodDAO", foodDAO);
-            return new ModelAndView(model, "templates/searchresults.vtl");
+            model.put("template", "templates/searchresults.vtl");
+            return new ModelAndView(model, "templates/resultslayout.vtl");
         }, new VelocityTemplateEngine());
 
         get("/login",(request,response) -> {
@@ -46,7 +47,8 @@ public class App {
             String error = request.session().attribute("errormessage");
             model.put("errormessage",error);
             request.session().removeAttribute("errormessage");
-            return new ModelAndView(model, "templates/login.vtl");
+            model.put("template", "templates/login.vtl");
+            return new ModelAndView(model, "templates/resultslayout.vtl");
         }, new VelocityTemplateEngine());
 
         post("/login", (request, response) -> {
@@ -72,7 +74,8 @@ public class App {
 
         get("/signup", (request, response) -> {
             Map<String, Object> model = new HashMap<>();
-            return new ModelAndView(model, "templates/signup.vtl");
+            model.put("template", "templates/signup.vtl");
+            return new ModelAndView(model, "templates/resultslayout.vtl");
         }, new VelocityTemplateEngine());
 
         post("/signup", (request, response) -> {
@@ -88,7 +91,8 @@ public class App {
         get("/logout", (request, response) -> {
             Map<String, Object> model = new HashMap<>();
             request.session().removeAttribute("username");
-            return new ModelAndView(model, "templates/bye.vtl");
+            model.put("template", "templates/bye.vtl");
+            return new ModelAndView(model, "templates/resultslayout.vtl");
         }, new VelocityTemplateEngine());
 
         get("/advancedsearch", (request, response) -> {
@@ -101,7 +105,8 @@ public class App {
             String tag = request.queryParams("tag");
             model.put("tag", tag);
             model.put("foodDAO", foodDAO);
-            return new ModelAndView(model, "templates/tagresults.vtl");
+            model.put("template", "templates/tagresults.vtl");
+            return new ModelAndView(model, "templates/resultslayout.vtl");
         }, new VelocityTemplateEngine());
 
         get("/categoryresults", (request, response) -> {
@@ -109,7 +114,8 @@ public class App {
            String category = request.queryParams("category");
            model.put("category", category);
            model.put("foodDAO", foodDAO);
-           return new ModelAndView(model, "templates/categoryresults.vtl");
+           model.put("template", "templates/categoryresults.vtl");
+           return new ModelAndView(model, "templates/resultslayout.vtl");
         }, new VelocityTemplateEngine());
 
         get("/calorierangeresults", (request, response) -> {
@@ -117,7 +123,8 @@ public class App {
             String calorierange = request.queryParams("calorierange");
             model.put("calorierange", calorierange);
             model.put("foodDAO", foodDAO);
-            return new ModelAndView(model, "templates/calorierangeresults.vtl");
+            model.put("template", "templates/calorierangeresults.vtl");
+            return new ModelAndView(model, "templates/resultslayout.vtl");
         }, new VelocityTemplateEngine());
 
         get("/proteinrangeresults", (request, response) -> {
@@ -125,7 +132,8 @@ public class App {
             String proteinrange = request.queryParams("proteinrange");
             model.put("proteinrange", proteinrange);
             model.put("foodDAO", foodDAO);
-            return new ModelAndView(model, "templates/proteinrangeresults.vtl");
+            model.put("template", "templates/proteinrangeresults.vtl");
+            return new ModelAndView(model, "templates/resultslayout.vtl");
         }, new VelocityTemplateEngine());
 
         get("/carbrangeresults", (request, response) -> {
@@ -133,7 +141,8 @@ public class App {
             String carbrange = request.queryParams("carbrange");
             model.put("carbrange", carbrange);
             model.put("foodDAO", foodDAO);
-            return new ModelAndView(model, "templates/carbrangeresults.vtl");
+            model.put("template", "templates/carbrangeresults.vtl");
+            return new ModelAndView(model, "templates/resultslayout.vtl");
         }, new VelocityTemplateEngine());
 
         get("/fatrangeresults", (request, response) -> {
@@ -141,7 +150,8 @@ public class App {
             String fatrange = request.queryParams("fatrange");
             model.put("fatrange", fatrange);
             model.put("foodDAO", foodDAO);
-            return new ModelAndView(model, "templates/fatrangeresults.vtl");
+            model.put("template", "templates/fatrangeresults.vtl");
+            return new ModelAndView(model, "templates/resultslayout.vtl");
         }, new VelocityTemplateEngine());
 
     }
