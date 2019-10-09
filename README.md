@@ -8,7 +8,7 @@
 
 **'Users' table**
 
-```CREATE TABLE users(id SERIAL PRIMARY KEY, name VARCHAR(100), email VARCHAR(100), password VARCHAR(100));```
+```CREATE TABLE users(id SERIAL PRIMARY KEY, name VARCHAR(100), email VARCHAR(100), password VARCHAR(100), tag VARCHAR(100), calorierange VARCHAR(100), proteinrange VARCHAR(100), carbrange VARCHAR(100), fatrange VARCHAR(100));```
 
 ### Starter 'food' table data
 
