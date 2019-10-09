@@ -6,13 +6,14 @@
                 <div class="single-member">
                     <img src=$foodDAO.findByName($name).getPhoto() />
                     <div class="nutritionalinformation">
-                        <p>
+                        <p style="font-size: 20px;">
+                            Results per 100g: <br/>
                             <strong>Category :</strong> $foodDAO.findByName($name).getCategory() <br/>
-                            <strong>Calories :</strong> $foodDAO.findByName($name).getCalories() <br/>
-                            <strong>Protein :</strong> $foodDAO.findByName($name).getProtein() <br/>
-                            <strong>Fat :</strong> $foodDAO.findByName($name).getFat() <br/>
-                            <strong>Carbohydrates :</strong> $foodDAO.findByName($name).getCarbs() <br/>
-                            <strong>Fibre :</strong> $foodDAO.findByName($name).getFibre() <br/>
+                            <strong>Calories :</strong> $foodDAO.findByName($name).getCalories() kcal <br/>
+                            <strong>Protein :</strong> $foodDAO.findByName($name).getProtein() g<br/>
+                            <strong>Fat :</strong> $foodDAO.findByName($name).getFat() g<br/>
+                            <strong>Carbohydrates :</strong> $foodDAO.findByName($name).getCarbs() g<br/>
+                            <strong>Fibre :</strong> $foodDAO.findByName($name).getFibre() g<br/>
                             <strong>Tag :</strong> $foodDAO.findByName($name).getTag() <br/>
                         </p>
                     </div>

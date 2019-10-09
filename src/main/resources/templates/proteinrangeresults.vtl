@@ -5,15 +5,17 @@
 <h2> Nutritional Information for '$proteinrange' Protein Range</h2>
 <ul>
     #foreach ($foodDAO in $foodDAO.findByProteinRange($proteinrange))
-    <li>$foodDAO.getName()</li>
-    <p>
-        <strong>Category :</strong> $foodDAO.getCategory() <br/>
-        <strong>Calories :</strong> $foodDAO.getCalories() <br/>
-        <strong>Protein :</strong> $foodDAO.getProtein() <br/>
-        <strong>Fat :</strong> $foodDAO.getFat() <br/>
-        <strong>Carbohydrates :</strong> $foodDAO.getCarbs() <br/>
-        <strong>Fibre :</strong> $foodDAO.getFibre() <br/>
-    </p>
+    <img src="$foodDAO.getPhoto()">
+     <li style="font-size: 20px;">$foodDAO.getName()</li>
+            <p style="font-size: 20px;">
+                Results per 100g: <br/>
+                <strong>Category :</strong> $foodDAO.getCategory() <br/>
+                <strong>Calories :</strong> $foodDAO.getCalories()kcal <br/>
+                <strong>Protein :</strong> $foodDAO.getProtein() g<br/>
+                <strong>Fat :</strong> $foodDAO.getFat() g<br/>
+                <strong>Carbohydrates :</strong> $foodDAO.getCarbs() g<br/>
+                <strong>Fibre :</strong> $foodDAO.getFibre() g<br/>
+            </p>
     #end
 </ul>
 </body>
