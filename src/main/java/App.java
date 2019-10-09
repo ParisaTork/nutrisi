@@ -12,24 +12,29 @@ import static spark.Spark.*;
 
 public class App {
     public static void main(String[] args) {
-        port(9000);
+
+        staticFileLocation("/public");
+
         String connectionString = "jdbc:postgresql://localhost:5432/nutrisi";
         Sql2o sql2o = new Sql2o(connectionString, "student", "");
         Sql2oFoodDAO foodDAO = new Sql2oFoodDAO(sql2o);
         Sql2oUserDAO userDAO = new Sql2oUserDAO(sql2o);
 
+
         get("/", (request, response) -> {
             Map<String, Object> model = new HashMap<>();
             String session = request.session().attribute("username");
             model.put("username",session);
-            return new ModelAndView(model, "templates/index.vtl");
+            model.put("templates", "templates/index.vtl");
+            return new ModelAndView(model, "templates/layout.vtl");
         }, new VelocityTemplateEngine());
 
         post("/", (request, response) -> {
             Map<String, Object> model = new HashMap<>();
             String name = request.queryParams("name");
             model.put("name", name);
-            return new ModelAndView(model, "templates/searchresults.vtl");
+            model.put("templates", "templates/searchresults.vtl");
+            return new ModelAndView(model, "templates/layout.vtl");
         }, new VelocityTemplateEngine());
 
         get("/searchresults", (request, response) -> {
@@ -145,5 +150,9 @@ public class App {
             return new ModelAndView(model, "templates/fatrangeresults.vtl");
         }, new VelocityTemplateEngine());
 
+        get("/presentation", (request,response)->{
+            Map<String, Object> model = new HashMap<>();
+            return new ModelAndView(model, "templates/presentation.vtl");
+        }, new VelocityTemplateEngine());
     }
 }
