@@ -15,7 +15,7 @@ public class App {
         staticFileLocation("/public");
         port(9000);
         String connectionString = "jdbc:postgresql://localhost:5432/nutrisi";
-        Sql2o sql2o = new Sql2o(connectionString, "parisatork", "Co1ona99");
+        Sql2o sql2o = new Sql2o(connectionString, "student", "");
         Sql2oFoodDAO foodDAO = new Sql2oFoodDAO(sql2o);
         Sql2oUserDAO userDAO = new Sql2oUserDAO(sql2o);
 
