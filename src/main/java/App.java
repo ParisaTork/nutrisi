@@ -9,6 +9,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static spark.Spark.*;
+import org.json.JSONObject;
+import kong.unirest.Unirest;
 
 public class App {
     public static void main(String[] args) {
@@ -21,6 +23,12 @@ public class App {
 
         get("/", (request, response) -> {
             Map<String, Object> model = new HashMap<>();
+//            String joke = Unirest.get("https://api.spoonacular.com/food/jokes/random?apiKey=5d9050c0cf864963aad55a329d51e429")
+//                    .asString()
+//                    .getBody();
+//            JSONObject jokeJson = new JSONObject(joke);
+//            String jokeText = jokeJson.getString("text");
+//            model.put("joke", jokeText);
             String session = request.session().attribute("username");
             model.put("username",session);
             return new ModelAndView(model, "templates/index.vtl");
@@ -97,7 +105,8 @@ public class App {
 
         get("/advancedsearch", (request, response) -> {
             Map<String, Object> model = new HashMap<>();
-            return new ModelAndView(model, "templates/advancedsearch.vtl");
+            model.put("template", "templates/advancedsearch.vtl");
+            return new ModelAndView(model, "templates/resultslayout.vtl");
         }, new VelocityTemplateEngine());
 
         get("/tagresults", (request, response) -> {
@@ -142,7 +151,7 @@ public class App {
             model.put("carbrange", carbrange);
             model.put("foodDAO", foodDAO);
             model.put("template", "templates/carbrangeresults.vtl");
-            return new ModelAndView(model, "templates/resultslayout.vtl");
+            return new ModelAndView(model, "templates/resultsayout.vtl");
         }, new VelocityTemplateEngine());
 
         get("/fatrangeresults", (request, response) -> {

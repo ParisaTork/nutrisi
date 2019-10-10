@@ -3,22 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="02031bf7-9696-4d5d-9add-9ff09f03a819" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/advancedsearch.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/advancedsearch.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/bye.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/bye.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/calorierangeresults.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/calorierangeresults.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/carbrangeresults.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/carbrangeresults.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/categoryresults.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/categoryresults.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fatrangeresults.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fatrangeresults.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/proteinrangeresults.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/proteinrangeresults.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/resultslayout.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/resultslayout.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/searchresults.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/searchresults.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/signup.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/signup.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/tagresults.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/tagresults.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/searchresults.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/searchresults.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/tagresults.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/tagresults.vtl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/velocity.log" beforeDir="false" afterPath="$PROJECT_DIR$/velocity.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/velocity.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/velocity.log.1" afterDir="false" />
     </list>
@@ -136,8 +120,6 @@
       <workItem from="1570619701586" duration="1607000" />
       <workItem from="1570621541031" duration="1816000" />
       <workItem from="1570626912665" duration="232000" />
-      <workItem from="1570637318756" duration="685000" />
-      <workItem from="1570698812153" duration="8336000" />
     </task>
     <servers />
   </component>
