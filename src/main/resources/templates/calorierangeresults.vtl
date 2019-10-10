@@ -1,20 +1,28 @@
 #* @vtlvariable name="calorierange" type="dao.FoodDAO" *#
 #* @vtlvariable name="name" type="dao.FoodDAO"*#
 #* @vtlvariable name="foodDAO" type="dao.FoodDAO" *#
-<div class="container">
+
+<div style="text-align: center;">
+    <br>
+    <br>
+    <h2>Nutritional information for '$calorierange' Calorie Range</h2>
+    <br>
     <ul>
+
         #foreach ($foodDAO in $foodDAO.findByCalorieRange($calorierange))
-            <img src="$foodDAO.getPhoto()">
-            <li style="font-size: 20px;">$foodDAO.getName()</li>
+            <img src="$foodDAO.getPhoto()" style="padding: 20px;">
+
+            <h1 style="font-weight:bold"><u>$foodDAO.getName()</u></h1>
             <p style="font-size: 20px;">
-                Results per 100g: <br/>
-                <strong>Category :</strong> $foodDAO.getCategory() <br/>
-                <strong>Calories :</strong> $foodDAO.getCalories()kcal <br/>
-                <strong>Protein :</strong> $foodDAO.getProtein() g<br/>
-                <strong>Fat :</strong> $foodDAO.getFat() g<br/>
-                <strong>Carbohydrates :</strong> $foodDAO.getCarbs() g<br/>
-                <strong>Fibre :</strong> $foodDAO.getFibre() g<br/>
+                <h2 style="font-weight:bold";>Results per 100g:</h2><br/>
+                <h2 style="font-weight:bold";>Category :</h2><h3>$foodDAO.getCategory()</h3><br/>
+                <h2 style="font-weight:bold">Calories :</h2><h3>$foodDAO.getCalories() kcal</h3><br/>
+                <h2 style="font-weight:bold">Protein :</h2><h3>$foodDAO.getProtein() g</h3><br/>
+                <h2 style="font-weight:bold">Fat :</h2><h3>$foodDAO.getFat() g</h3><br/>
+                <h2 style="font-weight:bold">Carbohydrates :</h2><h3>$foodDAO.getCarbs() g</h3><br/>
+                <h2 style="font-weight:bold">Fibre :</h2><h3>$foodDAO.getFibre() g</h3><br/>
             </p>
         #end
     </ul>
+    <br>
 </div>
