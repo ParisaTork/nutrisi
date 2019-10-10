@@ -3,19 +3,19 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-12">
-                <div class="single-member">
-                    <img src=$foodDAO.findByName($name).getPhoto() />
-                    <div class="nutritionalinformation">
+                <div  style="text-align: center;" class="single-member">
+                    <img src="$foodDAO.findByName($name).getPhoto()" style="padding: 20px;" >
+                        <h1 style="font-weight:bold"><u>$foodDAO.findByName($name).getName()</u></h1>
                         <p style="font-size: 20px;">
-                            Results per 100g: <br/>
-                            <strong>Category :</strong> $foodDAO.findByName($name).getCategory() <br/>
-                            <strong>Calories :</strong> $foodDAO.findByName($name).getCalories() kcal <br/>
-                            <strong>Protein :</strong> $foodDAO.findByName($name).getProtein() g<br/>
-                            <strong>Fat :</strong> $foodDAO.findByName($name).getFat() g<br/>
-                            <strong>Carbohydrates :</strong> $foodDAO.findByName($name).getCarbs() g<br/>
-                            <strong>Fibre :</strong> $foodDAO.findByName($name).getFibre() g<br/>
-                            <strong>Tag :</strong> $foodDAO.findByName($name).getTag() <br/>
+                            <h2 style="font-weight:bold";>Results per 100g:</h2><br/>
+                            <h2 style="font-weight:bold";>Category :</h2><h3>$foodDAO.findByName($name).getCategory()</h3><br/>
+                            <h2 style="font-weight:bold">Calories :</h2><h3>$foodDAO.findByName($name).getCalories() kcal</h3><br/>
+                            <h2 style="font-weight:bold">Protein :</h2><h3>$foodDAO.findByName($name).getProtein() g</h3><br/>
+                            <h2 style="font-weight:bold">Fat :</h2><h3>$foodDAO.findByName($name).getFat() g</h3><br/>
+                            <h2 style="font-weight:bold">Carbohydrates :</h2><h3>$foodDAO.findByName($name).getCarbs() g</h3><br/>
+                            <h2 style="font-weight:bold">Fibre :</h2><h3>$foodDAO.findByName($name).getFibre() g</h3><br/>
                         </p>
+                        <br>
                     </div>
                 </div>
             </div>

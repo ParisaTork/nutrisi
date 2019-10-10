@@ -1,22 +1,25 @@
 <!DOCTYPE>
 <html>
-<body>
-<h1>Nutrisi</h1>
-<h2> Nutritional Information for '$tag' </h2>
+<body style="text-align: center;">
+<br>
+<br>
+<h2> Nutritional Information for '$tag' Tag</h2>
+<br>
 <ul>
     #foreach ($foodDAO in $foodDAO.findByTag($tag))
-    <img src="$foodDAO.getPhoto()">
-  <li style="font-size: 20px;">$foodDAO.getName()</li>
-         <p style="font-size: 20px;">
-             Results per 100g: <br/>
-             <strong>Category :</strong> $foodDAO.getCategory() <br/>
-             <strong>Calories :</strong> $foodDAO.getCalories()kcal <br/>
-             <strong>Protein :</strong> $foodDAO.getProtein() g<br/>
-             <strong>Fat :</strong> $foodDAO.getFat() g<br/>
-             <strong>Carbohydrates :</strong> $foodDAO.getCarbs() g<br/>
-             <strong>Fibre :</strong> $foodDAO.getFibre() g<br/>
-         </p>
+    <img src="$foodDAO.getPhoto()" style="padding: 20px;" >
+        <h1 style="font-weight:bold"><u>$foodDAO.getName()</u></h1>
+        <p style="font-size: 20px;">
+            <h2 style="font-weight:bold";>Results per 100g:</h2><br/>
+            <h2 style="font-weight:bold";>Category :</h2><h3>$foodDAO.getCategory()</h3><br/>
+            <h2 style="font-weight:bold">Calories :</h2><h3>$foodDAO.getCalories() kcal</h3><br/>
+            <h2 style="font-weight:bold">Protein :</h2><h3>$foodDAO.getProtein() g</h3><br/>
+            <h2 style="font-weight:bold">Fat :</h2><h3>$foodDAO.getFat() g</h3><br/>
+            <h2 style="font-weight:bold">Carbohydrates :</h2><h3>$foodDAO.getCarbs() g</h3><br/>
+            <h2 style="font-weight:bold">Fibre :</h2><h3>$foodDAO.getFibre() g</h3><br/>
+        </p>
     #end
 </ul>
+<br>
 </body>
 </html>
