@@ -4,6 +4,8 @@ import models.User;
 import org.sql2o.Sql2o;
 import spark.ModelAndView;
 import spark.template.velocity.VelocityTemplateEngine;
+import kong.unirest.Unirest;
+import org.json.JSONObject;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -26,6 +28,15 @@ public class App {
             String session = request.session().attribute("username");
             model.put("username",session);
             model.put("templates", "templates/index.vtl");
+
+            String joke = Unirest.get("https://api.spoonacular.com/food/jokes/random?apiKey=5d9050c0cf864963aad55a329d51e429")
+                    .asString()
+                    .getBody();
+            JSONObject jokeJson = new JSONObject(joke);
+            String jokeText = jokeJson.getString("text");
+
+            System.out.println(jokeText);
+            model.put("joke", jokeText);
             return new ModelAndView(model, "templates/layout.vtl");
         }, new VelocityTemplateEngine());
 
@@ -40,11 +51,10 @@ public class App {
         get("/searchresults", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             String name = request.queryParams("name");
-
             model.put("name", name);
-
             model.put("foodDAO", foodDAO);
-            return new ModelAndView(model, "templates/searchresults.vtl");
+            model.put("templates", "templates/searchresults.vtl");
+            return new ModelAndView(model, "templates/layout.vtl");
         }, new VelocityTemplateEngine());
 
         get("/login",(request,response) -> {
@@ -52,7 +62,8 @@ public class App {
             String error = request.session().attribute("errormessage");
             model.put("errormessage",error);
             request.session().removeAttribute("errormessage");
-            return new ModelAndView(model, "templates/login.vtl");
+            model.put("templates", "templates/login.vtl");
+            return new ModelAndView(model, "templates/layout.vtl");
         }, new VelocityTemplateEngine());
 
         post("/login", (request, response) -> {
@@ -78,7 +89,8 @@ public class App {
 
         get("/signup", (request, response) -> {
             Map<String, Object> model = new HashMap<>();
-            return new ModelAndView(model, "templates/signup.vtl");
+            model.put("templates", "templates/signup.vtl");
+            return new ModelAndView(model, "templates/layout.vtl");
         }, new VelocityTemplateEngine());
 
         post("/signup", (request, response) -> {
@@ -94,7 +106,8 @@ public class App {
         get("/logout", (request, response) -> {
             Map<String, Object> model = new HashMap<>();
             request.session().removeAttribute("username");
-            return new ModelAndView(model, "templates/bye.vtl");
+            model.put("templates", "templates/bye.vtl");
+            return new ModelAndView(model, "templates/layout.vtl");
         }, new VelocityTemplateEngine());
 
         get("/advancedsearch", (request, response) -> {
@@ -107,7 +120,8 @@ public class App {
             String tag = request.queryParams("tag");
             model.put("tag", tag);
             model.put("foodDAO", foodDAO);
-            return new ModelAndView(model, "templates/tagresults.vtl");
+            model.put("templates", "templates/tagresults.vtl");
+            return new ModelAndView(model, "templates/layout.vtl");
         }, new VelocityTemplateEngine());
 
         get("/categoryresults", (request, response) -> {
@@ -115,7 +129,8 @@ public class App {
            String category = request.queryParams("category");
            model.put("category", category);
            model.put("foodDAO", foodDAO);
-           return new ModelAndView(model, "templates/categoryresults.vtl");
+           model.put("templates", "templates/categoryresults.vtl");
+           return new ModelAndView(model, "templates/layout.vtl");
         }, new VelocityTemplateEngine());
 
         get("/calorierangeresults", (request, response) -> {
@@ -123,7 +138,8 @@ public class App {
             String calorierange = request.queryParams("calorierange");
             model.put("calorierange", calorierange);
             model.put("foodDAO", foodDAO);
-            return new ModelAndView(model, "templates/calorierangeresults.vtl");
+            model.put("templates", "templates/calorierangeresults.vtl");
+            return new ModelAndView(model, "templates/layout.vtl");
         }, new VelocityTemplateEngine());
 
         get("/proteinrangeresults", (request, response) -> {
@@ -131,7 +147,8 @@ public class App {
             String proteinrange = request.queryParams("proteinrange");
             model.put("proteinrange", proteinrange);
             model.put("foodDAO", foodDAO);
-            return new ModelAndView(model, "templates/proteinrangeresults.vtl");
+            model.put("templates", "templates/proteinrangeresults.vtl");
+            return new ModelAndView(model, "templates/layout.vtl");
         }, new VelocityTemplateEngine());
 
         get("/carbrangeresults", (request, response) -> {
@@ -139,7 +156,8 @@ public class App {
             String carbrange = request.queryParams("carbrange");
             model.put("carbrange", carbrange);
             model.put("foodDAO", foodDAO);
-            return new ModelAndView(model, "templates/carbrangeresults.vtl");
+            model.put("templates", "templates/carbrangeresults.vtl");
+            return new ModelAndView(model, "templates/layout.vtl");
         }, new VelocityTemplateEngine());
 
         get("/fatrangeresults", (request, response) -> {
@@ -147,7 +165,8 @@ public class App {
             String fatrange = request.queryParams("fatrange");
             model.put("fatrange", fatrange);
             model.put("foodDAO", foodDAO);
-            return new ModelAndView(model, "templates/fatrangeresults.vtl");
+            model.put("templates", "templates/fatrangeresults.vtl");
+            return new ModelAndView(model, "templates/layout.vtl");
         }, new VelocityTemplateEngine());
 
         get("/presentation", (request,response)->{
