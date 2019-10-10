@@ -151,7 +151,7 @@ public class App {
             model.put("carbrange", carbrange);
             model.put("foodDAO", foodDAO);
             model.put("template", "templates/carbrangeresults.vtl");
-            return new ModelAndView(model, "templates/resultsayout.vtl");
+            return new ModelAndView(model, "templates/resultslayout.vtl");
         }, new VelocityTemplateEngine());
 
         get("/fatrangeresults", (request, response) -> {
