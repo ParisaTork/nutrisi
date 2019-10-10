@@ -1,6 +1,8 @@
 import dao.Sql2oFoodDAO;
 import dao.Sql2oUserDAO;
 import models.User;
+import org.json.JSONArray;
+import org.json.JSONString;
 import org.sql2o.Sql2o;
 import spark.ModelAndView;
 import spark.template.velocity.VelocityTemplateEngine;
@@ -35,8 +37,39 @@ public class App {
             JSONObject jokeJson = new JSONObject(joke);
             String jokeText = jokeJson.getString("text");
 
-            System.out.println(jokeText);
+            String trivia = Unirest.get( "https://api.spoonacular.com/food/trivia/?apiKey=5d9050c0cf864963aad55a329d51e429")
+                    .asString()
+                    .getBody();
+            JSONObject triviaJson = new JSONObject(trivia);
+            String triviaText = jokeJson.getString("text");
+            System.out.println(triviaText);
             model.put("joke", jokeText);
+            model.put("trivia", triviaText);
+
+            String recipe = Unirest.get( "https://api.spoonacular.com/recipes/random?apiKey=5d9050c0cf864963aad55a329d51e429")
+                    .asString()
+                    .getBody();
+            JSONObject recipeJson = new JSONObject(recipe);
+            JSONObject recipeBody = recipeJson.getJSONArray("recipes")
+                    .getJSONObject(0 );
+            String recipeTitle = recipeBody.getString("title");
+            JSONArray steps = recipeBody.getJSONArray("analyzedInstructions")
+                    .getJSONObject(0)
+                    .getJSONArray("steps");
+
+            for (int i = 0; i < steps.length(); i++) {
+                String step = steps.getJSONObject(i)
+                        .getString("step");
+                System.out.println(step);
+            }
+
+            System.out.println(recipeBody);
+            model.put("joke", jokeText);
+            model.put("trivia", triviaText);
+            model.put("recipe", recipeTitle);
+            model.put("steps",steps);
+
+
             return new ModelAndView(model, "templates/layout.vtl");
         }, new VelocityTemplateEngine());
 
