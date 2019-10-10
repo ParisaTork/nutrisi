@@ -65,9 +65,9 @@ public class Sql2oUserDAO implements UserDAO{
 //            }
 //            System.out.println("error: " + error);
             if (result == null) {
-                error = "Incorrect email! Please try again!";
+                error = "Incorrect login details! Please try again!";
             } else if (!BCrypt.checkpw(password, result.getPassword())) {
-                error = "Incorrect password! Please try again!";
+                error = "Incorrect login details! Please try again!";
             } else {
                 result.setLoggedIn();
                 return result;
