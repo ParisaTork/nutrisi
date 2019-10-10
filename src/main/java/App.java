@@ -23,12 +23,12 @@ public class App {
 
         get("/", (request, response) -> {
             Map<String, Object> model = new HashMap<>();
-//            String joke = Unirest.get("https://api.spoonacular.com/food/jokes/random?apiKey=5d9050c0cf864963aad55a329d51e429")
-//                    .asString()
-//                    .getBody();
-//            JSONObject jokeJson = new JSONObject(joke);
-//            String jokeText = jokeJson.getString("text");
-//            model.put("joke", jokeText);
+            String joke = Unirest.get("https://api.spoonacular.com/food/jokes/random?apiKey=d1c6b679de824d9c93099c9e8e8f9833")
+                    .asString()
+                    .getBody();
+            JSONObject jokeJson = new JSONObject(joke);
+            String jokeText = jokeJson.getString("text");
+            model.put("joke", jokeText);
             String session = request.session().attribute("username");
             model.put("username",session);
             return new ModelAndView(model, "templates/index.vtl");
@@ -161,6 +161,11 @@ public class App {
             model.put("foodDAO", foodDAO);
             model.put("template", "templates/fatrangeresults.vtl");
             return new ModelAndView(model, "templates/resultslayout.vtl");
+        }, new VelocityTemplateEngine());
+
+        get("/presentation", (request,response)->{
+            Map<String, Object> model = new HashMap<>();
+            return new ModelAndView(model, "templates/presentation.vtl");
         }, new VelocityTemplateEngine());
 
     }

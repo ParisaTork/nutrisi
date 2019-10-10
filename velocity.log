@@ -1,0 +1,19 @@
+2019-10-10 16:46:31,172 - Null reference [template 'templates/presentation.vtl', line 11, column 1] : $light-primary cannot be resolved.
+2019-10-10 16:46:31,172 - Null reference [template 'templates/presentation.vtl', line 12, column 1] : $text cannot be resolved.
+2019-10-10 16:46:31,172 - Null reference [template 'templates/presentation.vtl', line 13, column 1] : $primary-text cannot be resolved.
+2019-10-10 16:46:31,173 - Null reference [template 'templates/presentation.vtl', line 14, column 1] : $secondary-text cannot be resolved.
+2019-10-10 16:46:31,173 - Null reference [template 'templates/presentation.vtl', line 15, column 1] : $accent cannot be resolved.
+2019-10-10 16:46:31,173 - Null reference [template 'templates/presentation.vtl', line 40, column 21] : $primary cannot be resolved.
+2019-10-10 16:46:31,173 - Null reference [template 'templates/presentation.vtl', line 41, column 16] : $text cannot be resolved.
+2019-10-10 16:46:31,173 - Null reference [template 'templates/presentation.vtl', line 60, column 29] : $light-primary cannot be resolved.
+2019-10-10 16:46:31,173 - Null reference [template 'templates/presentation.vtl', line 130, column 21] : $primary cannot be resolved.
+2019-10-10 16:46:31,173 - Null reference [template 'templates/presentation.vtl', line 139, column 21] : $primary cannot be resolved.
+2019-10-10 16:46:31,174 - Null reference [template 'templates/presentation.vtl', line 140, column 16] : $text cannot be resolved.
+2019-10-10 16:46:31,174 - Null reference [template 'templates/presentation.vtl', line 151, column 36] : $primary cannot be resolved.
+2019-10-10 16:46:31,174 - Null reference [template 'templates/presentation.vtl', line 152, column 24] : $text cannot be resolved.
+2019-10-10 16:46:31,174 - Null reference [template 'templates/presentation.vtl', line 184, column 24] : $text cannot be resolved.
+2019-10-10 16:46:31,174 - Null reference [template 'templates/presentation.vtl', line 193, column 16] : $secondary-text cannot be resolved.
+2019-10-10 16:46:31,174 - Null reference [template 'templates/presentation.vtl', line 194, column 28] : $primary cannot be resolved.
+2019-10-10 16:46:31,174 - Null reference [template 'templates/presentation.vtl', line 199, column 21] : $accent cannot be resolved.
+2019-10-10 16:46:31,175 - Null reference [template 'templates/presentation.vtl', line 201, column 16] : $text cannot be resolved.
+2019-10-10 16:58:02,114 - ResourceManager : found templates/index.vtl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
