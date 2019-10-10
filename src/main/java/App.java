@@ -9,6 +9,7 @@ import spark.template.velocity.VelocityTemplateEngine;
 import kong.unirest.Unirest;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -56,19 +57,22 @@ public class App {
             JSONArray steps = recipeBody.getJSONArray("analyzedInstructions")
                     .getJSONObject(0)
                     .getJSONArray("steps");
+            String imageurl = recipeBody.getString("image");
+            ArrayList<String> array = new ArrayList();
 
             for (int i = 0; i < steps.length(); i++) {
                 String step = steps.getJSONObject(i)
                         .getString("step");
-                System.out.println(step);
+                array.add(step);
             }
 
-            System.out.println(recipeBody);
+            System.out.println(array);
+            System.out.println(imageurl);
             model.put("joke", jokeText);
             model.put("trivia", triviaText);
             model.put("recipe", recipeTitle);
-            model.put("steps",steps);
-
+            model.put("steps",array);
+            model.put("image", imageurl);
 
             return new ModelAndView(model, "templates/layout.vtl");
         }, new VelocityTemplateEngine());

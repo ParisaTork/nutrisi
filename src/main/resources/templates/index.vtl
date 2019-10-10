@@ -71,7 +71,14 @@
 $trivia
 </div>
 <div class = "random recipe">
-
+$recipe
+<br>
+<img src="$image" alt="recipe-image">
+<ul>
+  #foreach( $step in $steps )
+    <li>$step</li>
+  #end
+</ul>
 
 </div>
 #end
