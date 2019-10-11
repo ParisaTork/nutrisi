@@ -1,4 +1,13 @@
 
-usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ºŠËÕ8¡Öğ¶Ú-
-usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ºŠËÕ8¡Öğ¶Ú-
-isquid:S1192"HDefine a constant instead of duplicating this literal "foodDAO" 5 times.(íÃ ‡ùÿÿÿÿ8õøèÕÚ-
+ksquid:S11927"MDefine a constant instead of duplicating this literal "errormessage" 4 times.(âè¨”8òÖ°Û-
+wsquid:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").(ºŠËÕ8òÖ°Û-
+wsquid:S22936"YReplace the type specification in this constructor call with the diamond operator ("<>").(ºŠËÕ8òÖ°Û-
+zsquid:S11922"]Define a constant instead of duplicating this literal "templates/resultslayout.vtl" 11 times.(”²½8òÖ°Û-
+Msquid:S1481Z"*Remove this unused "model" local variable.(ëˆâîşÿÿÿÿ8òÖ°Û-
+lsquid:S1192 "IDefine a constant instead of duplicating this literal "username" 4 times.(ı÷ôòúÿÿÿÿ8òÖ°Û-
+nsquid:CommentedOutCodeLineN"<This block of commented-out lines of code should be removed.(÷ãƒûÿÿÿÿ8òÖ°Û-
+jsquid:S11925"GDefine a constant instead of duplicating this literal "/login" 4 times.(…ÛÕŸûÿÿÿÿ8òÖ°Û-
+Lsquid:S1481^")Remove this unused "user" local variable.(¡ı³ùûÿÿÿÿ8òÖ°Û-
+ksquid:S11920"HDefine a constant instead of duplicating this literal "foodDAO" 7 times.(íÃ ‡ùÿÿÿÿ8òÖ°Û-
+Msquid:S1481?"*Remove this unused "model" local variable.(ëˆâîşÿÿÿÿ8òÖ°Û-
+hsquid:S11921"JDefine a constant instead of duplicating this literal "template" 11 times.(Ğñ‘8òÖ°Û-

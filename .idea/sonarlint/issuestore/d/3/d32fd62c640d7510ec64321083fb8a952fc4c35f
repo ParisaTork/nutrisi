@@ -1,12 +1,13 @@
 
+isquid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(ÿ› Š8éÝŸ³Û-
+fsquid:S2095+"CUse try-with-resources or close this "Query" in a "finally" clause.(ÏçÒþÿÿÿÿ8Ì‰Ð¸Ù-
+†"squid:ClassVariableVisibilityCheck"QMake error a static final constant or non-public and provide accessors if needed.(¥©¼Š8ø‹‡¼Ù-
+Fsquid:S1148#"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8À®—µÙ-
+_squid:UselessImportCheck"/Remove this unused import 'org.sql2o.data.Row'.(™·Ôßüÿÿÿÿ8ŽÃè¹Ù-
+asquid:S2095"CUse try-with-resources or close this "Query" in a "finally" clause.(’Ñ§Ä8·……µÙ-
+[squid:UselessImportCheck
+"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ŽÃè¹Ù-
 Fsquid:S1148L"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8á±˜¹Ù-
-_squid:S2095"CUse try-with-resources or close this "Query" in a "finally" clause.(’Ñ§Ä8·……µÙ-
-Ysquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ŽÃè¹Ù-
-]squid:UselessImportCheck"/Remove this unused import 'org.sql2o.data.Row'.(™·Ôßüÿÿÿÿ8ŽÃè¹Ù-
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8À®—µÙ-
-dsquid:S2095"CUse try-with-resources or close this "Query" in a "finally" clause.(ÏçÒþÿÿÿÿ8Ì‰Ð¸Ù-
-gsquid:S1192"FDefine a constant instead of duplicating this literal "email" 3 times.(çÆÙŸþÿÿÿÿ8¤œ“¹Ù-
-dsquid:S2095"CUse try-with-resources or close this "Query" in a "finally" clause.(§éÇùÿÿÿÿ8´³“µÙ-
-„"squid:ClassVariableVisibilityCheck"QMake error a static final constant or non-public and provide accessors if needed.(¥©¼Š8ø‹‡¼Ù-
-dsquid:S2095"CUse try-with-resources or close this "Query" in a "finally" clause.(š¦¯Ðþÿÿÿÿ8òøèÕÚ-
-Zsquid:S4973"9Use the "equals" method if value comparison was intended.(Ï³è£øÿÿÿÿ8òøèÕÚ-
+isquid:S1192"FDefine a constant instead of duplicating this literal "email" 3 times.(çÆÙŸþÿÿÿÿ8¤œ“¹Ù-
+fsquid:S20955"CUse try-with-resources or close this "Query" in a "finally" clause.(Ž¤Þçùÿÿÿÿ8éÝŸ³Û-
+fsquid:S2095"CUse try-with-resources or close this "Query" in a "finally" clause.(§éÇùÿÿÿÿ8´³“µÙ-

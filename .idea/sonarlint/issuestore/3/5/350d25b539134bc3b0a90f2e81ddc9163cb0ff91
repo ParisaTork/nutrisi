@@ -1,40 +1,48 @@
 
-Bsquid:S1168N"+Return an empty collection instead of null.(¥¹ï
-_squid:S20950"CUse try-with-resources or close this "Query" in a "finally" clause.(åÇ¿½ûÿÿÿÿ
-T
-squid:S106X"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
-T
-squid:S1064"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
-Bsquid:S1168Z"+Return an empty collection instead of null.(¥¹ï
-_squid:S2095"CUse try-with-resources or close this "Query" in a "finally" clause.(æ†ˆ©ıÿÿÿÿ
-@squid:S1168"+Return an empty collection instead of null.(¥¹ï
-T
-squid:S106L"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
-Bsquid:S11686"+Return an empty collection instead of null.(¥¹ï
-Zsquid:S2095T"CUse try-with-resources or close this "Query" in a "finally" clause.(´Õ•»
 Zsquid:S2095`"CUse try-with-resources or close this "Query" in a "finally" clause.(Ïµ“Ó
+fsquid:S2095x"CUse try-with-resources or close this "Query" in a "finally" clause.(¿ïá™ûÿÿÿÿ8úøèÕÚ-
+Bsquid:S1168N"+Return an empty collection instead of null.(¥¹ï
 T
 squid:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
-Bsquid:S1168f"+Return an empty collection instead of null.(¥¹ï
-T
-squid:S106d"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+Bsquid:S1168Z"+Return an empty collection instead of null.(¥¹ï
 T
 squid:S106("9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
-Bsquid:S1168B"+Return an empty collection instead of null.(¥¹ï
-Zsquid:S2095$"CUse try-with-resources or close this "Query" in a "finally" clause.(­˜ä«
-Zsquid:S2095<"CUse try-with-resources or close this "Query" in a "finally" clause.(‰Â¡Ç
-Zsquid:S2095H"CUse try-with-resources or close this "Query" in a "finally" clause.(ÕËÏº
+T
+squid:S1064"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+Bsquid:S11686"+Return an empty collection instead of null.(¥¹ï
+_squid:S2095"CUse try-with-resources or close this "Query" in a "finally" clause.(æ†ˆ©ıÿÿÿÿ
 Bsquid:S1168*"+Return an empty collection instead of null.(¥¹ï
+Isquid:S1168~"+Return an empty collection instead of null.(¥¹ï8úøèÕÚ-
+Bsquid:S1168B"+Return an empty collection instead of null.(¥¹ï
+Zsquid:S2095T"CUse try-with-resources or close this "Query" in a "finally" clause.(´Õ•»
+T
+squid:S106X"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+Bsquid:S1168f"+Return an empty collection instead of null.(¥¹ï
+Zsquid:S2095$"CUse try-with-resources or close this "Query" in a "finally" clause.(­˜ä«
+T
+squid:S106d"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+asquid:S2095l"CUse try-with-resources or close this "Query" in a "finally" clause.(ôÉ¶”8úøèÕÚ-
+Bsquid:S1168r"+Return an empty collection instead of null.(¥¹ï
+[
+squid:S106|"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8úøèÕÚ-
 T
 squid:S106@"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
-_squid:S2095"CUse try-with-resources or close this "Query" in a "finally" clause.(ôÉ¶”8úøèÕÚ-
-dsquid:S2095"CUse try-with-resources or close this "Query" in a "finally" clause.(½ŠÇìøÿÿÿÿ8úøèÕÚ-
-dsquid:S2095"CUse try-with-resources or close this "Query" in a "finally" clause.(¿ïá™ûÿÿÿÿ8úøèÕÚ-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8úøèÕÚ-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8úøèÕÚ-
-Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8úøèÕÚ-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8úøèÕÚ-
-Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8úøèÕÚ-
+\
+squid:S106ˆ"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8úøèÕÚ-
+_squid:S20950"CUse try-with-resources or close this "Query" in a "finally" clause.(åÇ¿½ûÿÿÿÿ
+gsquid:S2095„"CUse try-with-resources or close this "Query" in a "finally" clause.(½ŠÇìøÿÿÿÿ8úøèÕÚ-
+Zsquid:S2095H"CUse try-with-resources or close this "Query" in a "finally" clause.(ÕËÏº
+Jsquid:S1168Š"+Return an empty collection instead of null.(¥¹ï8úøèÕÚ-
+T
+squid:S106L"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+Zsquid:S2095<"CUse try-with-resources or close this "Query" in a "finally" clause.(‰Â¡Ç
+[
+squid:S106p"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8úøèÕÚ-
+bsquid:S2095"CUse try-with-resources or close this "Query" in a "finally" clause.(³ÎÍÅ8†¯Í»Û-
+bsquid:S2095œ"CUse try-with-resources or close this "Query" in a "finally" clause.(Í©É‚8†¯Í»Û-
+\
+squid:S106”"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8†¯Í»Û-
+Jsquid:S1168–"+Return an empty collection instead of null.(¥¹ï8†¯Í»Û-
+\
+squid:S106 "9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8†¯Í»Û-
+Jsquid:S1168¢"+Return an empty collection instead of null.(¥¹ï8†¯Í»Û-
