@@ -166,3 +166,218 @@ ull reference [template 'templates/presentation.vtl', line 204, column 21] : $ac
 2019-10-11 07:06:18,171 - Null reference [template 'templates/presentation.vtl', line 198, column 28] : $primary cannot be resolved.
 2019-10-11 07:06:18,171 - Null reference [template 'templates/presentation.vtl', line 204, column 21] : $accent cannot be resolved.
 2019-10-11 07:06:18,171 - Null reference [template 'templates/presentation.vtl', line 206, column 16] : $text cannot be resolved.
+2019-10-11 11:03:35,831 - Log4JLogChute initialized using file 'velocity.log'
+2019-10-11 11:03:35,831 - Initializing Velocity, Calling init()...
+2019-10-11 11:03:35,831 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2019-10-11 11:03:35,831 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2019-10-11 11:03:35,832 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2019-10-11 11:03:35,832 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2019-10-11 11:03:35,832 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-10-11 11:03:35,832 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-10-11 11:03:35,836 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-10-11 11:03:35,853 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2019-10-11 11:03:35,855 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2019-10-11 11:03:35,855 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2019-10-11 11:03:35,856 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2019-10-11 11:03:35,856 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2019-10-11 11:03:35,857 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2019-10-11 11:03:35,858 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2019-10-11 11:03:35,858 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2019-10-11 11:03:35,859 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2019-10-11 11:03:35,860 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2019-10-11 11:03:35,891 - Created '20' parsers.
+2019-10-11 11:03:35,894 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2019-10-11 11:03:35,895 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2019-10-11 11:03:35,895 - Velocimacro : Default library not found.
+2019-10-11 11:03:35,895 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2019-10-11 11:03:35,896 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2019-10-11 11:03:35,896 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2019-10-11 11:03:35,896 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2019-10-11 11:03:35,910 - ResourceManager : found templates/presentation.vtl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-10-11 11:03:35,912 - Null reference [template 'templates/presentation.vtl', line 9, column 5] : $primary cannot be resolved.
+2019-10-11 11:03:35,912 - Null reference [template 'templates/presentation.vtl', line 10, column 1] : $dark-primary cannot be resolved.
+2019-10-11 11:03:35,912 - Null reference [template 'templates/presentation.vtl', line 11, column 1] : $light-primary cannot be resolved.
+2019-10-11 11:03:35,912 - Null reference [template 'templates/presentation.vtl', line 12, column 1] : $text cannot be resolved.
+2019-10-11 11:03:35,912 - Null reference [template 'templates/presentation.vtl', line 13, column 1] : $primary-text cannot be resolved.
+2019-10-11 11:03:35,912 - Null reference [template 'templates/presentation.vtl', line 14, column 1] : $secondary-text cannot be resolved.
+2019-10-11 11:03:35,912 - Null reference [template 'templates/presentation.vtl', line 15, column 1] : $accent cannot be resolved.
+2019-10-11 11:03:35,912 - Null reference [template 'templates/presentation.vtl', line 43, column 21] : $primary cannot be resolved.
+2019-10-11 11:03:35,913 - Null reference [template 'templates/presentation.vtl', line 44, column 16] : $text cannot be resolved.
+2019-10-11 11:03:35,913 - Null reference [template 'templates/presentation.vtl', line 63, column 29] : $light-primary cannot be resolved.
+2019-10-11 11:03:35,913 - Null reference [template 'templates/presentation.vtl', line 134, column 21] : $primary cannot be resolved.
+2019-10-11 11:03:35,913 - Null reference [template 'templates/presentation.vtl', line 143, column 21] : $primary cannot be resolved.
+2019-10-11 11:03:35,913 - Null reference [template 'templates/presentation.vtl', line 144, column 16] : $text cannot be resolved.
+2019-10-11 11:03:35,913 - Null reference [template 'templates/presentation.vtl', line 155, column 36] : $primary cannot be resolved.
+2019-10-11 11:03:35,913 - Null reference [template 'templates/presentation.vtl', line 156, column 24] : $text cannot be resolved.
+2019-10-11 11:03:35,913 - Null reference [template 'templates/presentation.vtl', line 188, column 24] : $text cannot be resolved.
+2019-10-11 11:03:35,913 - Null reference [template 'templates/presentation.vtl', line 197, column 16] : $secondary-text cannot be resolved.
+2019-10-11 11:03:35,913 - Null reference [template 'templates/presentation.vtl', line 198, column 28] : $primary cannot be resolved.
+2019-10-11 11:03:35,913 - Null reference [template 'templates/presentation.vtl', line 204, column 21] : $accent cannot be resolved.
+2019-10-11 11:03:35,913 - Null reference [template 'templates/presentation.vtl', line 206, column 16] : $text cannot be resolved.
+2019-10-11 11:04:45,831 - ResourceManager : found templates/presentation.vtl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-10-11 11:04:45,832 - Null reference [template 'templates/presentation.vtl', line 9, column 5] : $primary cannot be resolved.
+2019-10-11 11:04:45,832 - Null reference [template 'templates/presentation.vtl', line 10, column 1] : $dark-primary cannot be resolved.
+2019-10-11 11:04:45,832 - Null reference [template 'templates/presentation.vtl', line 11, column 1] : $light-primary cannot be resolved.
+2019-10-11 11:04:45,832 - Null reference [template 'templates/presentation.vtl', line 12, column 1] : $text cannot be resolved.
+2019-10-11 11:04:45,832 - Null reference [template 'templates/presentation.vtl', line 13, column 1] : $primary-text cannot be resolved.
+2019-10-11 11:04:45,832 - Null reference [template 'templates/presentation.vtl', line 14, column 1] : $secondary-text cannot be resolved.
+2019-10-11 11:04:45,832 - Null reference [template 'templates/presentation.vtl', line 15, column 1] : $accent cannot be resolved.
+2019-10-11 11:04:45,832 - Null reference [template 'templates/presentation.vtl', line 43, column 21] : $primary cannot be resolved.
+2019-10-11 11:04:45,832 - Null reference [template 'templates/presentation.vtl', line 44, column 16] : $text cannot be resolved.
+2019-10-11 11:04:45,832 - Null reference [template 'templates/presentation.vtl', line 63, column 29] : $light-primary cannot be resolved.
+2019-10-11 11:04:45,832 - Null reference [template 'templates/presentation.vtl', line 134, column 21] : $primary cannot be resolved.
+2019-10-11 11:04:45,832 - Null reference [template 'templates/presentation.vtl', line 143, column 21] : $primary cannot be resolved.
+2019-10-11 11:04:45,832 - Null reference [template 'templates/presentation.vtl', line 144, column 16] : $text cannot be resolved.
+2019-10-11 11:04:45,832 - Null reference [template 'templates/presentation.vtl', line 155, column 36] : $primary cannot be resolved.
+2019-10-11 11:04:45,832 - Null reference [template 'templates/presentation.vtl', line 156, column 24] : $text cannot be resolved.
+2019-10-11 11:04:45,832 - Null reference [template 'templates/presentation.vtl', line 188, column 24] : $text cannot be resolved.
+2019-10-11 11:04:45,832 - Null reference [template 'templates/presentation.vtl', line 197, column 16] : $secondary-text cannot be resolved.
+2019-10-11 11:04:45,832 - Null reference [template 'templates/presentation.vtl', line 198, column 28] : $primary cannot be resolved.
+2019-10-11 11:04:45,833 - Null reference [template 'templates/presentation.vtl', line 204, column 21] : $accent cannot be resolved.
+2019-10-11 11:04:45,833 - Null reference [template 'templates/presentation.vtl', line 206, column 16] : $text cannot be resolved.
+2019-10-11 11:07:03,637 - Log4JLogChute initialized using file 'velocity.log'
+2019-10-11 11:07:03,637 - Log4JLogChute initialized using file 'velocity.log'
+2019-10-11 11:07:03,637 - Initializing Velocity, Calling init()...
+2019-10-11 11:07:03,637 - Initializing Velocity, Calling init()...
+2019-10-11 11:07:03,637 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2019-10-11 11:07:03,637 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2019-10-11 11:07:03,637 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2019-10-11 11:07:03,637 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2019-10-11 11:07:03,637 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2019-10-11 11:07:03,637 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2019-10-11 11:07:03,637 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2019-10-11 11:07:03,637 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2019-10-11 11:07:03,637 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-10-11 11:07:03,637 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-10-11 11:07:03,637 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-10-11 11:07:03,637 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-10-11 11:07:03,638 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-10-11 11:07:03,638 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-10-11 11:07:03,638 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2019-10-11 11:07:03,638 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2019-10-11 11:07:03,638 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2019-10-11 11:07:03,638 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2019-10-11 11:07:03,638 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2019-10-11 11:07:03,638 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2019-10-11 11:07:03,638 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2019-10-11 11:07:03,638 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2019-10-11 11:07:03,638 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2019-10-11 11:07:03,638 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2019-10-11 11:07:03,638 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2019-10-11 11:07:03,638 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2019-10-11 11:07:03,639 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2019-10-11 11:07:03,639 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2019-10-11 11:07:03,639 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2019-10-11 11:07:03,639 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2019-10-11 11:07:03,639 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2019-10-11 11:07:03,639 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2019-10-11 11:07:03,639 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2019-10-11 11:07:03,639 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2019-10-11 11:07:03,641 - Created '20' parsers.
+2019-10-11 11:07:03,641 - Created '20' parsers.
+2019-10-11 11:07:03,641 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2019-10-11 11:07:03,641 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2019-10-11 11:07:03,641 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2019-10-11 11:07:03,641 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2019-10-11 11:07:03,641 - Velocimacro : Default library not found.
+2019-10-11 11:07:03,641 - Velocimacro : Default library not found.
+2019-10-11 11:07:03,641 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2019-10-11 11:07:03,641 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2019-10-11 11:07:03,641 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2019-10-11 11:07:03,641 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2019-10-11 11:07:03,641 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2019-10-11 11:07:03,641 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2019-10-11 11:07:03,641 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2019-10-11 11:07:03,641 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2019-10-11 11:07:03,646 - ResourceManager : found templates/index.vtl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-10-11 11:07:03,646 - ResourceManager : found templates/index.vtl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-10-11 11:07:04,042 - ResourceManager : found templates/presentation.vtl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-10-11 11:07:04,042 - ResourceManager : found templates/presentation.vtl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-10-11 11:07:04,042 - Null reference [template 'templates/presentation.vtl', line 9, column 5] : $primary cannot be resolved.
+2019-10-11 11:07:04,042 - Null reference [template 'templates/presentation.vtl', line 9, column 5] : $primary cannot be resolved.
+2019-10-11 11:07:04,042 - Null reference [template 'templates/presentation.vtl', line 10, column 1] : $dark-primary cannot be resolved.
+2019-10-11 11:07:04,042 - Null reference [template 'templates/presentation.vtl', line 10, column 1] : $dark-primary cannot be resolved.
+2019-10-11 11:07:04,042 - Null reference [template 'templates/presentation.vtl', line 11, column 1] : $light-primary cannot be resolved.
+2019-10-11 11:07:04,042 - Null reference [template 'templates/presentation.vtl', line 11, column 1] : $light-primary cannot be resolved.
+2019-10-11 11:07:04,042 - Null reference [template 'templates/presentation.vtl', line 12, column 1] : $text cannot be resolved.
+2019-10-11 11:07:04,042 - Null reference [template 'templates/presentation.vtl', line 12, column 1] : $text cannot be resolved.
+2019-10-11 11:07:04,042 - Null reference [template 'templates/presentation.vtl', line 13, column 1] : $primary-text cannot be resolved.
+2019-10-11 11:07:04,042 - Null reference [template 'templates/presentation.vtl', line 13, column 1] : $primary-text cannot be resolved.
+2019-10-11 11:07:04,042 - Null reference [template 'templates/presentation.vtl', line 14, column 1] : $secondary-text cannot be resolved.
+2019-10-11 11:07:04,042 - Null reference [template 'templates/presentation.vtl', line 14, column 1] : $secondary-text cannot be resolved.
+2019-10-11 11:07:04,043 - Null reference [template 'templates/presentation.vtl', line 15, column 1] : $accent cannot be resolved.
+2019-10-11 11:07:04,043 - Null reference [template 'templates/presentation.vtl', line 15, column 1] : $accent cannot be resolved.
+2019-10-11 11:07:04,043 - Null reference [template 'templates/presentation.vtl', line 43, column 21] : $primary cannot be resolved.
+2019-10-11 11:07:04,043 - Null reference [template 'templates/presentation.vtl', line 43, column 21] : $primary cannot be resolved.
+2019-10-11 11:07:04,043 - Null reference [template 'templates/presentation.vtl', line 44, column 16] : $text cannot be resolved.
+2019-10-11 11:07:04,043 - Null reference [template 'templates/presentation.vtl', line 44, column 16] : $text cannot be resolved.
+2019-10-11 11:07:04,043 - Null reference [template 'templates/presentation.vtl', line 63, column 29] : $light-primary cannot be resolved.
+2019-10-11 11:07:04,043 - Null reference [template 'templates/presentation.vtl', line 63, column 29] : $light-primary cannot be resolved.
+2019-10-11 11:07:04,043 - Null reference [template 'templates/presentation.vtl', line 134, column 21] : $primary cannot be resolved.
+2019-10-11 11:07:04,043 - Null reference [template 'templates/presentation.vtl', line 134, column 21] : $primary cannot be resolved.
+2019-10-11 11:07:04,043 - Null reference [template 'templates/presentation.vtl', line 143, column 21] : $primary cannot be resolved.
+2019-10-11 11:07:04,043 - Null reference [template 'templates/presentation.vtl', line 143, column 21] : $primary cannot be resolved.
+2019-10-11 11:07:04,043 - Null reference [template 'templates/presentation.vtl', line 144, column 16] : $text cannot be resolved.
+2019-10-11 11:07:04,043 - Null reference [template 'templates/presentation.vtl', line 144, column 16] : $text cannot be resolved.
+2019-10-11 11:07:04,043 - Null reference [template 'templates/presentation.vtl', line 155, column 36] : $primary cannot be resolved.
+2019-10-11 11:07:04,043 - Null reference [template 'templates/presentation.vtl', line 155, column 36] : $primary cannot be resolved.
+2019-10-11 11:07:04,043 - Null reference [template 'templates/presentation.vtl', line 156, column 24] : $text cannot be resolved.
+2019-10-11 11:07:04,043 - Null reference [template 'templates/presentation.vtl', line 156, column 24] : $text cannot be resolved.
+2019-10-11 11:07:04,043 - Null reference [template 'templates/presentation.vtl', line 188, column 24] : $text cannot be resolved.
+2019-10-11 11:07:04,043 - Null reference [template 'templates/presentation.vtl', line 188, column 24] : $text cannot be resolved.
+2019-10-11 11:07:04,044 - Null reference [template 'templates/presentation.vtl', line 197, column 16] : $secondary-text cannot be resolved.
+2019-10-11 11:07:04,044 - Null reference [template 'templates/presentation.vtl', line 197, column 16] : $secondary-text cannot be resolved.
+2019-10-11 11:07:04,044 - Null reference [template 'templates/presentation.vtl', line 198, column 28] : $primary cannot be resolved.
+2019-10-11 11:07:04,044 - Null reference [template 'templates/presentation.vtl', line 198, column 28] : $primary cannot be resolved.
+2019-10-11 11:07:04,044 - Null reference [template 'templates/presentation.vtl', line 204, column 21] : $accent cannot be resolved.
+2019-10-11 11:07:04,044 - Null reference [template 'templates/presentation.vtl', line 204, column 21] : $accent cannot be resolved.
+2019-10-11 11:07:04,044 - Null reference [template 'templates/presentation.vtl', line 206, column 16] : $text cannot be resolved.
+2019-10-11 11:07:04,044 - Null reference [template 'templates/presentation.vtl', line 206, column 16] : $text cannot be resolved.
+2019-10-11 11:12:39,558 - Log4JLogChute initialized using file 'velocity.log'
+2019-10-11 11:12:39,559 - Initializing Velocity, Calling init()...
+2019-10-11 11:12:39,559 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2019-10-11 11:12:39,559 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2019-10-11 11:12:39,559 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2019-10-11 11:12:39,559 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2019-10-11 11:12:39,559 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-10-11 11:12:39,559 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-10-11 11:12:39,563 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-10-11 11:12:39,578 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2019-10-11 11:12:39,579 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2019-10-11 11:12:39,580 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2019-10-11 11:12:39,581 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2019-10-11 11:12:39,581 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2019-10-11 11:12:39,582 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2019-10-11 11:12:39,583 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2019-10-11 11:12:39,583 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2019-10-11 11:12:39,584 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2019-10-11 11:12:39,585 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2019-10-11 11:12:39,612 - Created '20' parsers.
+2019-10-11 11:12:39,616 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2019-10-11 11:12:39,617 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2019-10-11 11:12:39,617 - Velocimacro : Default library not found.
+2019-10-11 11:12:39,617 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2019-10-11 11:12:39,617 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2019-10-11 11:12:39,617 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2019-10-11 11:12:39,617 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2019-10-11 11:12:39,634 - ResourceManager : found templates/presentation.vtl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-10-11 11:12:39,636 - Null reference [template 'templates/presentation.vtl', line 9, column 5] : $primary cannot be resolved.
+2019-10-11 11:12:39,636 - Null reference [template 'templates/presentation.vtl', line 10, column 1] : $dark-primary cannot be resolved.
+2019-10-11 11:12:39,636 - Null reference [template 'templates/presentation.vtl', line 11, column 1] : $light-primary cannot be resolved.
+2019-10-11 11:12:39,636 - Null reference [template 'templates/presentation.vtl', line 12, column 1] : $text cannot be resolved.
+2019-10-11 11:12:39,636 - Null reference [template 'templates/presentation.vtl', line 13, column 1] : $primary-text cannot be resolved.
+2019-10-11 11:12:39,636 - Null reference [template 'templates/presentation.vtl', line 14, column 1] : $secondary-text cannot be resolved.
+2019-10-11 11:12:39,636 - Null reference [template 'templates/presentation.vtl', line 15, column 1] : $accent cannot be resolved.
+2019-10-11 11:12:39,636 - Null reference [template 'templates/presentation.vtl', line 43, column 21] : $primary cannot be resolved.
+2019-10-11 11:12:39,636 - Null reference [template 'templates/presentation.vtl', line 44, column 16] : $text cannot be resolved.
+2019-10-11 11:12:39,636 - Null reference [template 'templates/presentation.vtl', line 63, column 29] : $light-primary cannot be resolved.
+2019-10-11 11:12:39,636 - Null reference [template 'templates/presentation.vtl', line 134, column 21] : $primary cannot be resolved.
+2019-10-11 11:12:39,636 - Null reference [template 'templates/presentation.vtl', line 143, column 21] : $primary cannot be resolved.
+2019-10-11 11:12:39,636 - Null reference [template 'templates/presentation.vtl', line 144, column 16] : $text cannot be resolved.
+2019-10-11 11:12:39,636 - Null reference [template 'templates/presentation.vtl', line 155, column 36] : $primary cannot be resolved.
+2019-10-11 11:12:39,636 - Null reference [template 'templates/presentation.vtl', line 156, column 24] : $text cannot be resolved.
+2019-10-11 11:12:39,637 - Null reference [template 'templates/presentation.vtl', line 188, column 24] : $text cannot be resolved.
+2019-10-11 11:12:39,637 - Null reference [template 'templates/presentation.vtl', line 197, column 16] : $secondary-text cannot be resolved.
+2019-10-11 11:12:39,637 - Null reference [template 'templates/presentation.vtl', line 198, column 28] : $primary cannot be resolved.
+2019-10-11 11:12:39,637 - Null reference [template 'templates/presentation.vtl', line 204, column 21] : $accent cannot be resolved.
+2019-10-11 11:12:39,637 - Null reference [template 'templates/presentation.vtl', line 206, column 16] : $text cannot be resolved.
