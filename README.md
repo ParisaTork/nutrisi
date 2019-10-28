@@ -45,4 +45,9 @@ Option 1) Rename the local repo so it doesn't conflict with the remote repo e.g.
 Option 2 (risky) ) Duplicate the local repo/push it to a new branch on Git. 
 **MAKE SURE YOU HAVE A COPY OF IT SOMEWHERE!**  This is because Git won't let you clone a remote repo to your machine if it has the same name as a local repo on your machine. You can now delete the local repo and clone from the specific branch you want to play around with.
 
+### Running the app
+Once you've cloned the project to your local machine, you'll need to set up the database as per the top of this page, and update the Sql2o connection in the App.java, Sql2oFoodDAOTest.java and Sql2oUserDAOTest.java files with your database's username and password.
+
+Run the app in your IDE, and open http://localhost:9000 in your browser to see the web app. 
+
 [Back to Nutrisi Wiki Homepage](https://github.com/ParisaTork/nutrisi/wiki)
