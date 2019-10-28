@@ -19,7 +19,8 @@ public class Food {
     private String carbrange;
     private String fatrange;
 
-    public Food(int id, String name, String category, double calories, double protein, double fat, double carbs, double fibre, String tag, String calorierange) {
+    public Food(int id, String name, String category, double calories, double protein, double fat, double carbs, double fibre,
+                String photo, String tag, String calorierange, String proteinrange, String carbrange, String fatrange) {
         this.id = id;
         this.name = name;
         this.category = category;
@@ -28,8 +29,12 @@ public class Food {
         this.fat = fat;
         this.carbs = carbs;
         this.fibre = fibre;
+        this.photo = photo;
         this.tag = tag;
         this.calorierange = calorierange;
+        this.proteinrange = proteinrange;
+        this.carbrange = carbrange;
+        this.fatrange = fatrange;
     }
 
     public int getId() {
@@ -123,11 +128,14 @@ public class Food {
                 Objects.equals(category, food.category) &&
                 Objects.equals(photo, food.photo) &&
                 Objects.equals(tag, food.tag) &&
-                Objects.equals(calorierange, food.calorierange);
+                Objects.equals(calorierange, food.calorierange) &&
+                Objects.equals(proteinrange, food.proteinrange) &&
+                Objects.equals(carbrange, food.carbrange) &&
+                Objects.equals(fatrange, food.fatrange);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, name, category, calories, protein, fat, carbs, fibre, photo, tag, calorierange);
+        return Objects.hash(id, name, category, calories, protein, fat, carbs, fibre, photo, tag, calorierange, proteinrange, carbrange, fatrange);
     }
 }
