@@ -11,7 +11,8 @@ public class FoodTest {
 
     @Before
     public void setUp() {
-        food = new Food(1, "walnut", "nut", 654.0, 15.23, 65.21, 13.71, 6.7, "high protein", "600-699");
+        food = new Food(1, "walnut", "nut", 654.0, 15.23, 65.21, 13.71, 6.7,
+                "https://source.unsplash.com/FT0fNHmv4A0/400x400", "high protein", "600-699", "10-19", "10-19", "19+");
     }
 
     @Test

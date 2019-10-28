@@ -17,6 +17,7 @@ public class Sql2oUserDAOTest {
     @Before
     public void setUp() {
         String connString = "jdbc:postgresql://localhost:5432/nutrisitest";
+        // Update user and pass below to your database username and password
         Sql2o sql2o = new Sql2o(connString, "student","");
         userDAO =   new Sql2oUserDAO(sql2o);
         connection = sql2o.open();
@@ -56,14 +57,14 @@ public class Sql2oUserDAOTest {
     public void authenticateIncorrectEmailGivesError() {
         userDAO.create("Natalie","natalie@yahoo.com","pass1234");
         User auth = userDAO.authenticate("wrongemail@yahoo.com","pass1234");
-        assertEquals("Incorrect email", userDAO.getError());
+        assertEquals("Incorrect login details! Please try again!", userDAO.getError());
     }
 
     @Test
     public void authenticateIncorrectPasswordGivesError() {
         userDAO.create("Natalie","natalie@yahoo.com","pass1234");
         User auth = userDAO.authenticate("natalie@yahoo.com","wrongpass");
-        assertEquals("Incorrect password", userDAO.getError());
+        assertEquals("Incorrect login details! Please try again!", userDAO.getError());
     }
 
     @Test
