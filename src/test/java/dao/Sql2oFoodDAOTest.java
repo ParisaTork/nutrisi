@@ -19,7 +19,8 @@ public class Sql2oFoodDAOTest {
     @Before
     public void setUp(){
         String connectionString = "jdbc:postgresql://localhost:5432/nutrisitest";
-        Sql2o sql2o = new Sql2o(connectionString, "nhe", "");
+        // Update user and pass below to your database username and password
+        Sql2o sql2o = new Sql2o(connectionString, "student", "");
         FoodDAO = new Sql2oFoodDAO(sql2o);
         con = sql2o.open();
         walnut = new Food(1, "walnut", "nut", 654.0, 15.23, 65.21, 13.71, 6.7,
